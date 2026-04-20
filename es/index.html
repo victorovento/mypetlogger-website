@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MyPetLogger — El diario de tu mascota que sí vas a mantener</title>
-  <meta name="description" content="Una app de iOS bellamente nativa para registrar cada detalle de la vida de tu mascota. Historial médico, paseos, recordatorios, herramientas para criadores — privada por diseño, sin cuentas, sin rastreo.">
+  <meta name="description" content="Una app de iOS bellamente nativa para todo tipo de mascotas — perros, gatos, aves, conejos, hurones y más. Historial médico, paseos, recordatorios, herramientas para criadores. Privada por diseño, sin cuentas, sin rastreo.">
   <meta name="theme-color" content="#6E5AD6">
   <link rel="canonical" href="https://mypetlogger.com/es/">
   <link rel="alternate" hreflang="en" href="https://mypetlogger.com/">
@@ -55,7 +55,11 @@
       <a href="#pricing">Precios</a>
       <a href="#faq">Preguntas</a>
       <a href="/" class="nav__lang">English</a>
-      <a href="#download" class="nav__cta">Descargar</a>
+      <button class="theme-toggle" type="button" aria-label="Cambiar modo oscuro" title="Cambiar modo oscuro">
+        <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="theme-toggle__sun"  viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2v3m0-20v3m9 9h3M0 12h3m15.36 6.36 2.12 2.12M3.52 3.52l2.12 2.12m12.72 0 2.12-2.12M3.52 20.48l2.12-2.12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </button>
+      <span class="nav__cta is-disabled" aria-disabled="true">Próximamente</span>
     </div>
   </div>
 </nav>
@@ -71,18 +75,19 @@
       <span class="eyebrow">Una carta de amor a tu mascota</span>
       <h1 class="hero__title">El diario de tu mascota<br>que <em>sí</em> vas a mantener.</h1>
       <p class="hero__lede">
-        MyPetLogger es la app de iOS que construimos para nuestros propios perros — un lugar
-        obsesivamente pulido para guardar cada vacuna, cada paseo, cada visita al veterinario,
-        cada momento. Vive en tu iPhone. En ningún otro lugar. Sin cuentas. Sin rastreo. Sin ruido.
+        MyPetLogger es la app de iOS para cada compañero de tu casa — perros, gatos, aves, conejos,
+        hurones, hámsters y los demás. Un lugar obsesivamente pulido para guardar cada vacuna,
+        cada paseo, cada visita al veterinario, cada momento. Vive en tu iPhone. En ningún otro
+        lugar. Sin cuentas. Sin rastreo. Sin ruido.
       </p>
       <div class="hero__ctas">
-        <a href="https://apps.apple.com/app/mypetlogger/" class="appstore" aria-label="Descargar en el App Store">
+        <span class="appstore is-disabled" role="button" aria-disabled="true" aria-label="Próximamente en el App Store">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.02-2.76 2.25-4.08 2.35-4.15-1.28-1.87-3.27-2.13-3.97-2.16-1.69-.17-3.3 1-4.15 1-.86 0-2.18-.97-3.58-.94-1.84.03-3.54 1.07-4.49 2.72-1.91 3.32-.49 8.23 1.37 10.93.91 1.32 2 2.81 3.4 2.76 1.36-.06 1.88-.89 3.53-.89 1.65 0 2.11.89 3.56.86 1.47-.02 2.4-1.34 3.3-2.67 1.04-1.53 1.47-3.02 1.49-3.1-.03-.01-2.84-1.09-2.86-4.36zM14.5 4.07c.75-.92 1.26-2.19 1.12-3.46-1.08.04-2.4.72-3.19 1.62-.7.8-1.32 2.1-1.16 3.34 1.21.09 2.45-.61 3.23-1.5z"/></svg>
           <span>
-            <span class="appstore__small">Descargar en el</span>
+            <span class="appstore__small">Próximamente en el</span>
             <span class="appstore__big">App Store</span>
           </span>
-        </a>
+        </span>
         <a href="#features" class="btn-ghost">Ver qué incluye →</a>
       </div>
       <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 17+</p>
@@ -104,12 +109,12 @@
 <section class="tight">
   <div class="container manifesto reveal">
     <p>
-      Las apps para mascotas suelen ser una de dos cosas: una agenda de contactos glorificada,
-      o una aspiradora de datos que le vende el cumpleaños de tu perro a un broker publicitario.
-      <strong>No queríamos ninguna de las dos.</strong>
+      Las apps para mascotas suelen ser una de dos cosas: una agenda de contactos glorificada para
+      una sola especie, o una aspiradora de datos que le vende el cumpleaños de tu mascota a un
+      broker publicitario. <strong>No queríamos ninguna de las dos.</strong>
       MyPetLogger es una app calmada, privada y profundamente nativa de iOS, construida alrededor
       de una sola idea — la persona que más ama a tu mascota eres tú, y el lugar donde
-      recuerdas su vida debería sentirse como un hogar.
+      recuerdas su vida debería sentirse como un hogar, ya ladre, ronronee, cante o salte.
     </p>
   </div>
 </section>
@@ -314,7 +319,7 @@
       <span class="eyebrow">El compromiso de privacidad</span>
       <h2>La vida de tu mascota no es asunto nuestro.</h2>
       <p class="pledge__quote">
-        "Nunca quisimos construir una empresa que vendiera datos sobre perros. Así que no lo hicimos.
+        "Nunca quisimos construir una empresa que vendiera datos sobre mascotas. Así que no lo hicimos.
         MyPetLogger no tiene cuentas, ni servidores nuestros, ni analítica espiándote por encima del hombro.
         El historial de tu mascota vive en tu iPhone, y si activas iCloud, vive en tu propio iCloud privado.
         Esa es toda la historia."
@@ -411,7 +416,7 @@
   <div class="container">
     <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto 48px;">
       <span class="eyebrow">Por qué la construimos</span>
-      <h2>Una nota del creador.</h2>
+      <h2>Una nota del desarrollador.</h2>
     </div>
     <div class="founder reveal">
       <p>
@@ -444,41 +449,6 @@
   </div>
 </section>
 
-<section class="tight">
-  <div class="container">
-    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
-      <span class="eyebrow">Capturas</span>
-      <h2>Un recorrido.</h2>
-      <p style="font-size: 1.1rem;">Explora la app como la usarías — una pantalla por pestaña.</p>
-    </div>
-    <div class="gallery">
-      <div class="phone reveal"><div class="phone__screen">
-            <picture>
-              <source srcset="/assets/img/screenshots/summary-dark.png" media="(prefers-color-scheme: dark)">
-              <img src="/assets/img/screenshots/summary-light.png" alt="Resumen" loading="lazy">
-            </picture>
-          </div></div>
-      <div class="phone reveal reveal--delay-1"><div class="phone__screen">
-            <picture>
-              <source srcset="/assets/img/screenshots/pet-detail-dark.png" media="(prefers-color-scheme: dark)">
-              <img src="/assets/img/screenshots/pet-detail-light.png" alt="Detalle" loading="lazy">
-            </picture>
-          </div></div>
-      <div class="phone reveal reveal--delay-2"><div class="phone__screen">
-            <picture>
-              <source srcset="/assets/img/screenshots/walk-dark.png" media="(prefers-color-scheme: dark)">
-              <img src="/assets/img/screenshots/walk-light.png" alt="Paseo" loading="lazy">
-            </picture>
-          </div></div>
-      <div class="phone reveal reveal--delay-3"><div class="phone__screen">
-            <picture>
-              <source srcset="/assets/img/screenshots/map-dark.png" media="(prefers-color-scheme: dark)">
-              <img src="/assets/img/screenshots/map-light.png" alt="Mapa" loading="lazy">
-            </picture>
-          </div></div>
-    </div>
-  </div>
-</section>
 
 <section class="tight">
   <div class="container">
@@ -535,6 +505,7 @@
       <h2>Respondidas.</h2>
     </div>
     <div class="faq">
+      <details class="faq__item reveal"><summary class="faq__q">¿Qué mascotas admite?</summary><div class="faq__a">Todas. Perros y gatos son ciudadanos de primera clase, pero el selector de especie también incluye aves, conejos, hurones, hámsters, cobayas, reptiles, peces y un campo libre para lo verdaderamente inusual. Cada especie tiene su propia lista de razas, paleta de colores e icono — y cada mascota, sin importar la especie, recibe el historial médico completo, los recordatorios y las acciones rápidas.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">¿Hay versión de Android?</summary><div class="faq__a">Hoy no. MyPetLogger está construida en SwiftUI para sentirse profundamente nativa en las plataformas de Apple — Live Activities, Dynamic Island, Siri, HealthKit, WatchConnectivity. Preferimos hacer una plataforma bien que dos plataformas mal.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">¿Necesito una cuenta?</summary><div class="faq__a">No. No hay registro, ni email, ni contraseña. Abre la app y empieza. Si activas iCloud, tus datos se mueven entre tus propios dispositivos por tu propio Apple ID — nunca por nosotros.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">¿Qué saben de mí?</summary><div class="faq__a">Casi nada. Vemos reportes de fallos anónimos si optaste por la analítica de Apple, y conteos agregados del App Store. No tenemos base de datos de usuarios, ni lista de nombres de mascotas, ni forma de contactarte a menos que nos escribas primero.</div></details>
@@ -587,7 +558,7 @@
           <li><a href="#features">Funciones</a></li>
           <li><a href="#pricing">Precios</a></li>
           <li><a href="#faq">Preguntas</a></li>
-          <li><a href="https://apps.apple.com/app/mypetlogger/">App Store</a></li>
+          <li><span style="opacity:0.6">App Store (próximamente)</span></li>
         </ul>
       </div>
       <div>

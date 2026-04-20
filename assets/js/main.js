@@ -3,6 +3,49 @@
 (() => {
   'use strict';
 
+  // ---- Theme toggle (light / dark, persisted) ----
+  const STORAGE_KEY = 'mpl-theme';
+  const root = document.documentElement;
+  const mql = window.matchMedia('(prefers-color-scheme: dark)');
+
+  // For each <picture> with a dark <source media="(prefers-color-scheme: dark)">,
+  // we flip the source's media attribute so the picture element reflects the chosen theme
+  // instead of the system preference.
+  const swapSources = document.querySelectorAll('picture > source[media*="prefers-color-scheme"]');
+
+  const applyTheme = (theme) => {
+    if (theme === 'light' || theme === 'dark') {
+      root.setAttribute('data-theme', theme);
+    } else {
+      root.removeAttribute('data-theme');
+    }
+    const effective = theme || (mql.matches ? 'dark' : 'light');
+    swapSources.forEach(s => {
+      if (theme === 'dark')      s.media = 'all';
+      else if (theme === 'light') s.media = 'not all';
+      else                        s.media = '(prefers-color-scheme: dark)';
+    });
+    root.style.colorScheme = effective;
+  };
+
+  const stored = (() => { try { return localStorage.getItem(STORAGE_KEY); } catch { return null; } })();
+  applyTheme(stored);
+
+  document.querySelectorAll('.theme-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const current = root.getAttribute('data-theme') || (mql.matches ? 'dark' : 'light');
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem(STORAGE_KEY, next); } catch {}
+    });
+  });
+
+  // Follow system if user hasn't picked
+  mql.addEventListener?.('change', () => {
+    const explicit = (() => { try { return localStorage.getItem(STORAGE_KEY); } catch { return null; } })();
+    if (!explicit) applyTheme(null);
+  });
+
   // Scroll-aware nav
   const nav = document.querySelector('.nav');
   if (nav) {
