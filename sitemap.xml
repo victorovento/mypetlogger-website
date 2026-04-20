@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mypetlogger.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mypetlogger.com/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/privacy/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/terms/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es/privacy/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es/terms/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mypetlogger.com/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+</urlset>
