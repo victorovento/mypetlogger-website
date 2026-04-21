@@ -176,8 +176,8 @@ HOME = [
     ("Press", "الصحافة"),
     ("Legal", "قانوني"),
     ("Age suitability (9+)", "الملاءمة العمرية (+9)"),
-    ("© 2026 LCVSystems LLC. Made with care in the United States.",
-     "© 2026 LCVSystems LLC. صُنع بعناية في الولايات المتحدة."),
+    ("© 2026 LC&amp;V Systems LLC. Made with care in the United States.",
+     "© 2026 LC&amp;V Systems LLC. صُنع بعناية في الولايات المتحدة."),
 ]
 
 _LEGAL_COMMON = [

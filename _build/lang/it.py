@@ -242,8 +242,8 @@ HOME = [
     ("Press", "Stampa"),
     ("Legal", "Legale"),
     ("Age suitability (9+)", "Idoneità per età (9+)"),
-    ("© 2026 LCVSystems LLC. Made with care in the United States.",
-     "© 2026 LCVSystems LLC. Fatto con cura negli Stati Uniti."),
+    ("© 2026 LC&amp;V Systems LLC. Made with care in the United States.",
+     "© 2026 LC&amp;V Systems LLC. Fatto con cura negli Stati Uniti."),
 ]
 
 _LEGAL_COMMON = [
@@ -262,8 +262,8 @@ PRIVACY = _LEGAL_COMMON + [
     ("<strong>Short version:</strong> MyPetLogger is a private, on-device pet journal.\n  We don't have accounts, we don't have servers of our own, and we don't collect personal\n  data about you or your pets. Your records live on your iPhone, and optionally sync across\n  your own devices through your own iCloud. Neither we nor any third party can read them.",
      "<strong>Versione breve:</strong> MyPetLogger è un diario privato per animali, sul dispositivo.\n  Non abbiamo account, non abbiamo server nostri, e non raccogliamo dati personali\n  su di te o sui tuoi animali. I tuoi dati vivono sul tuo iPhone, e opzionalmente si sincronizzano tra\n  i tuoi dispositivi tramite il tuo iCloud. Né noi né alcuna terza parte possono leggerli."),
     ("1. Who we are", "1. Chi siamo"),
-    ("MyPetLogger is developed and published by LCVSystems LLC (\"LCVSystems\", \"we\", \"us\"),\n  a United States limited liability company. You can reach us at",
-     "MyPetLogger è sviluppata e pubblicata da LCVSystems LLC («LCVSystems», «noi»),\n  una società a responsabilità limitata degli Stati Uniti. Puoi contattarci a"),
+    ("MyPetLogger is developed and published by LC&amp;V Systems LLC (\"LC&amp;V Systems\", \"we\", \"us\"),\n  a United States limited liability company. You can reach us at",
+     "MyPetLogger è sviluppata e pubblicata da LC&amp;V Systems LLC («LC&amp;V Systems», «noi»),\n  una società a responsabilità limitata degli Stati Uniti. Puoi contattarci a"),
     ("2. What data we collect", "2. Quali dati raccogliamo"),
     ("MyPetLogger is an offline-first app. The core pet data you enter — names, species,\n  breeds, medical records, walks, notes, photos — is stored locally on your device in\n  Apple's Core Data framework, and is never transmitted to us.",
      "MyPetLogger è un'app offline-first. I dati principali sull'animale che inserisci — nomi, specie,\n  razze, cartelle mediche, passeggiate, note, foto — sono archiviati localmente sul tuo dispositivo nel\n  framework Core Data di Apple, e non vengono mai trasmessi a noi."),
@@ -300,8 +300,8 @@ TERMS = _LEGAL_COMMON + [
     ("MyPetLogger Terms of Service.", "Termini di servizio di MyPetLogger."),
     ("Terms of Service", "Termini di servizio"),
     ("Last updated: April 20, 2026", "Ultimo aggiornamento: 20 aprile 2026"),
-    ("These terms govern your use of MyPetLogger, an iOS application developed by\n  LCVSystems LLC (\"LCVSystems\", \"we\", \"us\"). By downloading or using the app, you agree\n  to these terms.",
-     "Questi termini governano il tuo uso di MyPetLogger, un'applicazione iOS sviluppata da\n  LCVSystems LLC («LCVSystems», «noi»). Scaricando o usando l'app, accetti\n  questi termini."),
+    ("These terms govern your use of MyPetLogger, an iOS application developed by\n  LC&amp;V Systems LLC (\"LC&amp;V Systems\", \"we\", \"us\"). By downloading or using the app, you agree\n  to these terms.",
+     "Questi termini governano il tuo uso di MyPetLogger, un'applicazione iOS sviluppata da\n  LC&amp;V Systems LLC («LC&amp;V Systems», «noi»). Scaricando o usando l'app, accetti\n  questi termini."),
     ("1. The app", "1. L'app"),
     ("2. Your account and data", "2. Il tuo account e i tuoi dati"),
     ("Privacy Policy", "Informativa sulla privacy"),

@@ -176,8 +176,8 @@ HOME = [
     ("Press", "プレス"),
     ("Legal", "法的情報"),
     ("Age suitability (9+)", "年齢適合性 (9+)"),
-    ("© 2026 LCVSystems LLC. Made with care in the United States.",
-     "© 2026 LCVSystems LLC. アメリカ合衆国で心を込めて作られました。"),
+    ("© 2026 LC&amp;V Systems LLC. Made with care in the United States.",
+     "© 2026 LC&amp;V Systems LLC. アメリカ合衆国で心を込めて作られました。"),
 ]
 
 _LEGAL_COMMON = [

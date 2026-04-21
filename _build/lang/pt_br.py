@@ -176,8 +176,8 @@ HOME = [
     ("Press", "Imprensa"),
     ("Legal", "Legal"),
     ("Age suitability (9+)", "Classificação etária (9+)"),
-    ("© 2026 LCVSystems LLC. Made with care in the United States.",
-     "© 2026 LCVSystems LLC. Feito com cuidado nos Estados Unidos."),
+    ("© 2026 LC&amp;V Systems LLC. Made with care in the United States.",
+     "© 2026 LC&amp;V Systems LLC. Feito com cuidado nos Estados Unidos."),
 ]
 
 _LEGAL_COMMON = [
