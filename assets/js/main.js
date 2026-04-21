@@ -87,9 +87,10 @@
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
   }
 
-  // Parallax + tilt — skip on touch devices (jank > value on mobile)
+  // Parallax + tilt — skip on touch devices and any narrow viewport.
   const coarse = window.matchMedia('(pointer: coarse)').matches;
-  if (!reduce && !coarse) {
+  const narrow = window.matchMedia('(max-width: 860px)').matches;
+  if (!reduce && !coarse && !narrow) {
     const blooms = document.querySelectorAll('.bloom');
     const phones = document.querySelectorAll('.phone[data-parallax]');
     let ticking = false;

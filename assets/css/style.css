@@ -231,6 +231,12 @@ p { margin: 0 0 1em; color: var(--text-dim); }
   .bloom { filter: blur(40px); will-change: auto; opacity: 0.4; }
 }
 
+/* Kill phone scroll tilt + reveal motion on small screens — they cause jank */
+@media (max-width: 860px) {
+  .phone, .phone--tilt, .phone--tilt-right { transform: none !important; }
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; will-change: auto !important; }
+}
+
 /* ============ Ambient gradient background ============ */
 .bloom-bg {
   position: absolute;
