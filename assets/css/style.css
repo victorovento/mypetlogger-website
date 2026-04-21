@@ -390,7 +390,7 @@ section.tight { padding: 64px 0; }
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/assets/img/iphone-bezel.png");
+  background-image: url("/assets/img/iphone-bezel.webp");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;
