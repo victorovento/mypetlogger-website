@@ -1,0 +1,28 @@
+{
+  "name": "MyPetLogger",
+  "short_name": "MyPetLogger",
+  "description": "The pet journal you'll actually keep. A beautifully native iOS app for every kind of pet.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "orientation": "portrait",
+  "background_color": "#F7F5FC",
+  "theme_color": "#F7F5FC",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["lifestyle", "utilities", "health"],
+  "icons": [
+    {
+      "src": "/assets/img/logo-light.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

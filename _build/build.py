@@ -30,6 +30,24 @@ PAGE_OUT = {
     'AGE':     'age-rating/index.html',
 }
 
+# Map locale code → BCP-47-ish OG locale identifier (Facebook expects xx_XX).
+OG_LOCALE = {
+    'en-gb': 'en_GB',
+    'es-la': 'es_LA',
+    'es-es': 'es_ES',
+    'fr':    'fr_FR',
+    'it':    'it_IT',
+    'de':    'de_DE',
+    'nl':    'nl_NL',
+    'pt-br': 'pt_BR',
+    'pt-pt': 'pt_PT',
+    'ru':    'ru_RU',
+    'ja':    'ja_JP',
+    'ko':    'ko_KR',
+    'zh':    'zh_CN',
+    'ar':    'ar_AR',
+}
+
 def load_locales():
     sys.path.insert(0, str(LANG_DIR.parent))
     locales = []
@@ -65,12 +83,45 @@ def localize_paths(html: str, code: str) -> str:
     ]
     for a, b in pairs:
         html = html.replace(a, b)
+
+    # Rewrite absolute https://mypetlogger.com/ → /{code}/ when it points to a page
+    # (root, fragment, or end-of-attribute). Skip /assets/ — those are shared.
+    # Matches: "https://mypetlogger.com/" and "https://mypetlogger.com/#anchor"
+    html = re.sub(
+        r'https://mypetlogger\.com/(?=["#])',
+        f'https://mypetlogger.com/{code}/',
+        html,
+    )
     return html
 
 def set_lang_dir(html: str, lang: str, direction: str) -> str:
     html = re.sub(r'<html lang="[^"]*"(?: dir="[^"]*")?>',
                   f'<html lang="{lang}" dir="{direction}">', html, count=1)
+    # Match dir on body too if any inline scripts query it (defensive no-op normally).
     return html
+
+def set_og_locale(html: str, code: str) -> str:
+    og = OG_LOCALE.get(code)
+    if not og:
+        return html
+    # Replace primary og:locale (en_US default in source) with this locale.
+    html = re.sub(
+        r'<meta property="og:locale" content="en_US">',
+        f'<meta property="og:locale" content="{og}">',
+        html,
+    )
+    # Drop the og:locale:alternate line that matches this locale (it's redundant
+    # to list yourself as your own alternate).
+    html = re.sub(
+        rf'\s*<meta property="og:locale:alternate" content="{re.escape(og)}">',
+        '',
+        html,
+    )
+    return html
+
+def set_inlanguage(html: str, lang: str) -> str:
+    # Update JSON-LD inLanguage from "en" to the locale's BCP-47 tag.
+    return html.replace('"inLanguage": "en"', f'"inLanguage": "{lang}"')
 
 def set_lang_label(html: str, label: str) -> str:
     return html.replace(
@@ -82,7 +133,6 @@ def apply_translations(html: str, pairs) -> str:
     for en, tr in pairs:
         if en in html:
             html = html.replace(en, tr)
-        # silent no-op if string drifted; report in --verbose mode if needed
     return html
 
 def build():
@@ -98,6 +148,8 @@ def build():
             html = set_lang_dir(html, mod.LANG, mod.DIR)
             html = set_lang_label(html, mod.LABEL)
             html = localize_paths(html, code)
+            html = set_og_locale(html, code)
+            html = set_inlanguage(html, mod.LANG)
             pairs = getattr(mod, key, [])
             html = apply_translations(html, pairs)
             out_path = out_dir / PAGE_OUT[key]

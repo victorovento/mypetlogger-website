@@ -1,4 +1,26 @@
+# MyPetLogger — robots.txt
+# Allow everything; static marketing site.
+
 User-agent: *
 Allow: /
+Disallow:
 
+# Block known low-value crawlers from spending budget here.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemap (always absolute URL).
 Sitemap: https://mypetlogger.com/sitemap.xml
+Host: https://mypetlogger.com
