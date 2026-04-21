@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Accessibility — MyPetLogger</title>
+  <meta name="description" content="How MyPetLogger supports VoiceOver, Voice Control, Dynamic Type, Reduce Motion, and other iOS and watchOS accessibility features.">
+  <meta name="author" content="LC&amp;V Systems LLC">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#F7F5FC" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0D0A17" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta name="apple-mobile-web-app-title" content="MyPetLogger">
+
+  <link rel="canonical" href="https://mypetlogger.com/accessibility/">
+  <link rel="alternate" hreflang="en" href="https://mypetlogger.com/accessibility/">
+  <link rel="alternate" hreflang="x-default" href="https://mypetlogger.com/accessibility/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="MyPetLogger">
+  <meta property="og:url" content="https://mypetlogger.com/accessibility/">
+  <meta property="og:title" content="Accessibility — MyPetLogger">
+  <meta property="og:description" content="How MyPetLogger supports VoiceOver, Voice Control, Dynamic Type, Reduce Motion, and other iOS and watchOS accessibility features.">
+  <meta property="og:image" content="https://mypetlogger.com/assets/img/logo.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="MyPetLogger app icon">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@mypetlogger">
+  <meta name="twitter:title" content="Accessibility — MyPetLogger">
+  <meta name="twitter:description" content="How MyPetLogger supports VoiceOver, Voice Control, Dynamic Type, Reduce Motion, and other iOS and watchOS accessibility features.">
+  <meta name="twitter:image" content="https://mypetlogger.com/assets/img/logo.png">
+
+  <link rel="icon" type="image/png" href="/assets/img/logo-light.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="/assets/img/logo-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="/assets/img/logo-light.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://mypetlogger.com/accessibility/#webpage",
+        "url": "https://mypetlogger.com/accessibility/",
+        "name": "Accessibility — MyPetLogger",
+        "description": "How MyPetLogger supports VoiceOver, Voice Control, Dynamic Type, Reduce Motion, and other iOS and watchOS accessibility features.",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://mypetlogger.com/#website" },
+        "publisher": { "@type": "Organization", "name": "LC&V Systems LLC", "url": "https://lcvsystems.com" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mypetlogger.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Accessibility", "item": "https://mypetlogger.com/accessibility/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary">
+  <div class="container nav__inner">
+    <a href="/" class="nav__brand">
+      <picture class="logo-swap">
+        <source srcset="/assets/img/logo-dark.png" media="(prefers-color-scheme: dark)">
+        <img src="/assets/img/logo-light.png" alt="" class="nav__logo">
+      </picture>
+      <span>MyPetLogger</span>
+    </a>
+    <div class="nav__links">
+      <a href="/#features">Features</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#faq">FAQ</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="theme-toggle__sun"  viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2v3m0-20v3m9 9h3M0 12h3m15.36 6.36 2.12 2.12M3.52 3.52l2.12 2.12m12.72 0 2.12-2.12M3.52 20.48l2.12-2.12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></button>
+      <span class="nav__cta is-disabled" aria-disabled="true">Coming soon</span>
+    </div>
+  </div>
+</nav>
+
+<main class="legal">
+  <h1>Accessibility</h1>
+  <p class="legal__meta">MyPetLogger is built to work with the accessibility features already on your iPhone, iPad, and Apple Watch. This page describes what's supported, what's not, and how to reach us if something isn't working for you.</p>
+
+  <p>We treat accessibility as part of the job, not an add-on. If a screen doesn't work well with a tool you rely on, that's a bug — tell us at <a href="mailto:support@mypetlogger.com?subject=Accessibility">support@mypetlogger.com</a> and we'll prioritize it.</p>
+
+  <h2>VoiceOver</h2>
+  <p>All primary flows in MyPetLogger — adding a pet, logging weight, logging a medication dose, starting and ending a walk, viewing the summary, and managing subscriptions — are navigable with VoiceOver on iPhone, iPad, and Apple Watch.</p>
+  <ul>
+    <li>Decorative icons are hidden from VoiceOver so the rotor doesn't stop on them.</li>
+    <li>Status indicators (red dots, orange "Paused" text, countdown badges) have spoken equivalents.</li>
+    <li>Icon-only controls on the watch — pause, resume, stop during a walk — are labeled as actions, not symbol names.</li>
+    <li>Rows with mixed content (photo + name + subtitle) are combined into a single element so VoiceOver speaks them as one unit.</li>
+  </ul>
+
+  <h2>Voice Control (iOS / iPadOS)</h2>
+  <p>Because VoiceOver labels are set correctly, the same labels work as Voice Control targets. You can say "Tap Save", "Tap Start Walk", or "Tap Subscribe" to activate the main buttons. Voice Control is not available on watchOS, so this applies to the iPhone and iPad apps.</p>
+
+  <h2>Dynamic Type (Larger Text)</h2>
+  <p>The app uses iOS text styles throughout, so it follows your system text-size setting, including the Accessibility extra-large sizes. Large numeric displays (weights, walk distance, countdowns) scale down instead of truncating when you pick the biggest sizes.</p>
+
+  <h2>Reduce Motion</h2>
+  <p>When <strong>Settings → Accessibility → Motion → Reduce Motion</strong> is on:</p>
+  <ul>
+    <li>The celebratory confetti animation is suppressed (the haptic still fires, so the action still feels confirmed).</li>
+    <li>Zoom / scale transitions on the vet map are replaced with a plain fade.</li>
+    <li>The Digital Crown scrubbing animation on the watch weight dial is disabled — the number updates without the spring.</li>
+  </ul>
+
+  <h2>Dark Interface / contrast</h2>
+  <p>MyPetLogger supports both Light and Dark appearance and follows the system setting. watchOS is always dark. Where we use color to reinforce meaning (red for overdue, orange for upcoming), the same information is also in text or an icon shape, so it doesn't rely on color alone.</p>
+
+  <h2>Differentiate Without Color</h2>
+  <p>Anywhere a color carries meaning — a pet's vaccination status, a walk "paused" state, a subscription countdown — the screen also shows an icon or text label. Colors are a reinforcement, not the only signal.</p>
+
+  <h2>Haptics</h2>
+  <p>Important confirmations (saving a log, completing a walk, unlocking a one-off with an ad) trigger a short haptic so the action is perceivable without looking at the screen. Haptics respect the iOS System Haptics setting.</p>
+
+  <h2>What's not supported yet</h2>
+  <ul>
+    <li><strong>Captions / audio descriptions</strong> — MyPetLogger has no audio or video content today, so there's nothing to caption. If we add in-app videos in the future, we'll caption them from day one.</li>
+    <li><strong>Switch Control</strong> — we haven't specifically tested Switch Control. The standard UIKit / SwiftUI controls we use are switch-compatible, but we haven't certified the end-to-end flow. If you use Switch Control and hit a rough edge, please email us.</li>
+  </ul>
+
+  <h2>Reporting an accessibility issue</h2>
+  <p>Email <a href="mailto:support@mypetlogger.com?subject=Accessibility">support@mypetlogger.com</a> with "Accessibility" in the subject. It helps to include:</p>
+  <ul>
+    <li>Your device and iOS / watchOS version (Settings → General → About).</li>
+    <li>The accessibility features you had enabled (VoiceOver, Larger Text size, Reduce Motion, etc.).</li>
+    <li>The screen or action where the problem happened.</li>
+    <li>What you expected versus what actually happened.</li>
+  </ul>
+  <p>Accessibility bugs go to the top of the queue.</p>
+
+  <h2>Contact</h2>
+  <p>LC&amp;V Systems LLC &middot; <a href="mailto:support@mypetlogger.com">support@mypetlogger.com</a> &middot; <a href="https://lcvsystems.com">lcvsystems.com</a></p>
+
+  <p style="margin-top:48px;"><a href="/">← Back to MyPetLogger</a></p>
+</main>
+
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
