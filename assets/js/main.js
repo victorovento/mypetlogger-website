@@ -87,11 +87,13 @@
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
   }
 
-  // Parallax on bloom backgrounds
-  if (!reduce) {
+  // Parallax + tilt — skip on touch devices (jank > value on mobile)
+  const coarse = window.matchMedia('(pointer: coarse)').matches;
+  if (!reduce && !coarse) {
     const blooms = document.querySelectorAll('.bloom');
+    const phones = document.querySelectorAll('.phone[data-parallax]');
     let ticking = false;
-    const onParallax = () => {
+    const tick = () => {
       if (ticking) return;
       ticking = true;
       requestAnimationFrame(() => {
@@ -101,25 +103,19 @@
           const scale = 1 + (Math.sin((y + i * 80) / 900) * 0.05);
           b.style.transform = `translate3d(0, ${y * speed}px, 0) scale(${scale})`;
         });
+        const cy = window.innerHeight / 2;
+        phones.forEach(p => {
+          const rect = p.getBoundingClientRect();
+          const mid = rect.top + rect.height / 2;
+          const d = (mid - cy) / window.innerHeight;
+          const base = p.dataset.rotate ? parseFloat(p.dataset.rotate) : 0;
+          p.style.transform = `rotate(${base + d * -4}deg) translateY(${d * -10}px)`;
+        });
         ticking = false;
       });
     };
-    window.addEventListener('scroll', onParallax, { passive: true });
-    onParallax();
-
-    // Phone tilt on scroll
-    const phones = document.querySelectorAll('.phone[data-parallax]');
-    const onPhoneTilt = () => {
-      const cy = window.innerHeight / 2;
-      phones.forEach(p => {
-        const rect = p.getBoundingClientRect();
-        const mid = rect.top + rect.height / 2;
-        const d = (mid - cy) / window.innerHeight;
-        const base = p.dataset.rotate ? parseFloat(p.dataset.rotate) : 0;
-        p.style.transform = `rotate(${base + d * -4}deg) translateY(${d * -10}px)`;
-      });
-    };
-    window.addEventListener('scroll', onPhoneTilt, { passive: true });
-    onPhoneTilt();
+    window.addEventListener('scroll', tick, { passive: true });
+    window.addEventListener('resize', tick, { passive: true });
+    tick();
   }
 })();

@@ -195,11 +195,35 @@ p { margin: 0 0 1em; color: var(--text-dim); }
     top: 100%; left: 0; right: 0;
     flex-direction: column;
     background: var(--bg-raised);
-    padding: 20px 24px;
+    padding: 18px max(20px, env(safe-area-inset-right)) calc(18px + env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
     border-bottom: 1px solid var(--border);
-    gap: 18px;
-    align-items: flex-start;
+    gap: 14px;
+    align-items: stretch;
+    max-height: calc(100vh - 100%);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
+  .nav__links.is-open > a { width: 100%; }
+  .nav__links.is-open .nav__cta { text-align: center; }
+  /* Language picker becomes inline inside the drawer */
+  .nav__links.is-open .nav__lang { width: 100%; }
+  .nav__links.is-open .nav__lang > summary {
+    width: 100%; justify-content: space-between; padding: 8px 0;
+  }
+  .nav__links.is-open .nav__lang__menu {
+    position: static;
+    width: 100%; min-width: 0;
+    max-height: 240px;
+    box-shadow: none;
+    margin-top: 8px;
+  }
+  /* Cheaper effects on phones */
+  .nav { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--bg); }
+}
+
+/* Disable expensive bloom + parallax on touch devices */
+@media (pointer: coarse) {
+  .bloom { filter: blur(40px); will-change: auto; opacity: 0.4; }
 }
 
 /* ============ Ambient gradient background ============ */
