@@ -157,7 +157,28 @@ p { margin: 0 0 1em; color: var(--text-dim); }
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .nav__cta:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
-.nav__lang { font-size: 0.85rem !important; opacity: 0.7; }
+.nav__lang { position: relative; font-size: 0.85rem; }
+.nav__lang > summary {
+  list-style: none; cursor: pointer; padding: 8px 12px;
+  border-radius: 12px; opacity: 0.75; user-select: none;
+  display: inline-flex; align-items: center; gap: 4px;
+}
+.nav__lang > summary::-webkit-details-marker { display: none; }
+.nav__lang > summary:hover { opacity: 1; background: var(--border); }
+.nav__lang[open] > summary { opacity: 1; background: var(--border); }
+.nav__lang__menu {
+  position: absolute; top: calc(100% + 6px); right: 0;
+  list-style: none; margin: 0; padding: 6px;
+  background: var(--bg-raised); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow);
+  min-width: 200px; max-height: 70vh; overflow-y: auto; z-index: 50;
+}
+.nav__lang__menu li { margin: 0; }
+.nav__lang__menu a {
+  display: block; padding: 8px 12px; border-radius: 8px;
+  color: var(--text); text-decoration: none; font-size: 0.9rem;
+}
+.nav__lang__menu a:hover { background: var(--border); }
 .nav__burger {
   display: none;
   background: transparent; border: 0;
@@ -818,3 +839,8 @@ footer {
 .legal p, .legal li { color: var(--text-dim); }
 .legal ul { padding-left: 20px; }
 .legal a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+/* RTL overrides — Arabic */
+[dir="rtl"] body { font-family: "Tajawal", "Noto Sans Arabic", var(--font); }
+[dir="rtl"] .legal ul { padding-left: 0; padding-right: 20px; }
+[dir="rtl"] .nav__lang--menu { left: 0; right: auto; }

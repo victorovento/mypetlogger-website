@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="it" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MyPetLogger — Il diario per il tuo animale che terrai davvero</title>
+  <meta name="description" content="Una bellissima app iOS nativa per ogni tipo di animale — cani, gatti, uccelli, conigli, furetti e altro. Cartelle mediche, passeggiate, promemoria, strumenti per allevatori. Privata per progettazione, senza account, senza tracciamento.">
+  <meta name="theme-color" content="#6E5AD6">
+  <link rel="canonical" href="https://mypetlogger.com/it/">
+  <link rel="alternate" hreflang="en" href="https://mypetlogger.com/">
+  <link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/">
+  <link rel="alternate" hreflang="x-default" href="https://mypetlogger.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mypetlogger.com/">
+  <meta property="og:title" content="MyPetLogger — Il diario per il tuo animale che terrai davvero">
+  <meta property="og:description" content="Una bellissima app iOS nativa per ogni momento della vita del tuo animale. Privata per progettazione.">
+  <meta property="og:image" content="https://mypetlogger.com/assets/img/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@mypetlogger">
+
+  <link rel="icon" type="image/png" href="/assets/img/logo-light.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="/assets/img/logo-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="/assets/img/logo-light.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Google Analytics (replace G-XXXXXXXXXX with your property ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', { anonymize_ip: true });
+  </script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" aria-label="Primary">
+  <div class="container nav__inner">
+    <a href="/it/" class="nav__brand">
+      <picture class="logo-swap">
+        <source srcset="/assets/img/logo-dark.png" media="(prefers-color-scheme: dark)">
+        <img src="/assets/img/logo-light.png" alt="" class="nav__logo">
+      </picture>
+      <span>MyPetLogger</span>
+    </a>
+    <button class="nav__burger" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">☰</button>
+    <div class="nav__links" id="nav-links">
+      <a href="#features">Funzioni</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#pricing">Prezzi</a>
+      <a href="#faq">FAQ</a>
+      <details class="nav__lang">
+        <summary><span class="nav__lang__current">Italiano</span><span aria-hidden="true">▾</span></summary>
+        <ul class="nav__lang__menu" role="menu">
+          <li><a href="/" hreflang="en">English</a></li>
+          <li><a href="/en-gb/" hreflang="en-GB">English (UK)</a></li>
+          <li><a href="/es-la/" hreflang="es">Español (LatAm)</a></li>
+          <li><a href="/es-es/" hreflang="es-ES">Español (España)</a></li>
+          <li><a href="/fr/" hreflang="fr">Français</a></li>
+          <li><a href="/it/" hreflang="it">Italiano</a></li>
+          <li><a href="/de/" hreflang="de">Deutsch</a></li>
+          <li><a href="/nl/" hreflang="nl">Nederlands</a></li>
+          <li><a href="/pt-br/" hreflang="pt-BR">Português (BR)</a></li>
+          <li><a href="/pt-pt/" hreflang="pt-PT">Português (PT)</a></li>
+          <li><a href="/ru/" hreflang="ru">Русский</a></li>
+          <li><a href="/ja/" hreflang="ja">日本語</a></li>
+          <li><a href="/ko/" hreflang="ko">한국어</a></li>
+          <li><a href="/zh/" hreflang="zh-Hans">简体中文</a></li>
+          <li><a href="/ar/" hreflang="ar">العربية</a></li>
+        </ul>
+      </details>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="theme-toggle__sun"  viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2v3m0-20v3m9 9h3M0 12h3m15.36 6.36 2.12 2.12M3.52 3.52l2.12 2.12m12.72 0 2.12-2.12M3.52 20.48l2.12-2.12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </button>
+      <span class="nav__cta is-disabled" aria-disabled="true">In arrivo</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="download">
+  <div class="bloom-bg" aria-hidden="true">
+    <div class="bloom bloom--1"></div>
+    <div class="bloom bloom--2"></div>
+    <div class="bloom bloom--3"></div>
+  </div>
+  <div class="container hero__inner">
+    <div class="reveal">
+      <span class="eyebrow">Una lettera d'amore al tuo animale</span>
+      <h1 class="hero__title">Il diario per il tuo animale<br>che terrai <em>davvero</em>.</h1>
+      <p class="hero__lede">
+        MyPetLogger è l'app iOS per ogni compagno della tua casa — cani, gatti, uccelli, conigli,
+        furetti, criceti e tutti gli altri. Un luogo ossessivamente curato per conservare ogni vaccino,
+        ogni passeggiata, ogni visita dal veterinario, ogni traguardo. Vive sul tuo iPhone. Da nessun'altra parte.
+        Nessun account. Nessun tracciamento. Nessun rumore.
+      </p>
+      <div class="hero__ctas">
+        <span class="appstore is-disabled" role="button" aria-disabled="true" aria-label="In arrivo to the App Store">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.02-2.76 2.25-4.08 2.35-4.15-1.28-1.87-3.27-2.13-3.97-2.16-1.69-.17-3.3 1-4.15 1-.86 0-2.18-.97-3.58-.94-1.84.03-3.54 1.07-4.49 2.72-1.91 3.32-.49 8.23 1.37 10.93.91 1.32 2 2.81 3.4 2.76 1.36-.06 1.88-.89 3.53-.89 1.65 0 2.11.89 3.56.86 1.47-.02 2.4-1.34 3.3-2.67 1.04-1.53 1.47-3.02 1.49-3.1-.03-.01-2.84-1.09-2.86-4.36zM14.5 4.07c.75-.92 1.26-2.19 1.12-3.46-1.08.04-2.4.72-3.19 1.62-.7.8-1.32 2.1-1.16 3.34 1.21.09 2.45-.61 3.23-1.5z"/></svg>
+          <span>
+            <span class="appstore__small">In arrivo to the</span>
+            <span class="appstore__big">App Store</span>
+          </span>
+        </span>
+        <a href="#features" class="btn-ghost">Guarda cosa c'è dentro →</a>
+      </div>
+      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 17+</p>
+    </div>
+
+    <div class="reveal reveal--delay-1">
+      <div class="phone phone--tilt" data-parallax data-rotate="-4">
+        <div class="phone__screen">
+          <picture>
+            <source srcset="/assets/img/screenshots/summary-dark.png" media="(prefers-color-scheme: dark)">
+            <img src="/assets/img/screenshots/summary-light.png" alt="Scheda Riepilogo con la panoramica di oggi" loading="eager">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MANIFESTO ============ -->
+<section class="tight">
+  <div class="container manifesto reveal">
+    <p>
+      Le app per animali di solito sono una di due cose: una rubrica glorificata per una sola specie, o
+      un aspirapolvere di dati che vende il compleanno del tuo animale a un broker pubblicitario. <strong>Non volevamo né l'una né l'altra.</strong>
+      MyPetLogger è un'app iOS calma, privata, profondamente nativa, costruita attorno a una sola idea —
+      la persona che ama di più il tuo animale sei tu, e il luogo per ricordare la sua vita
+      dovrebbe sembrare casa, che abbai, faccia le fusa, cinguetti o saltelli.
+    </p>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section id="features">
+  <div class="container">
+
+    <div class="feature-row feature" data-tint="purple">
+      <div class="reveal">
+        <span class="feature__kicker"><span class="feature__kicker-dot"></span>Una casa per ogni compagno</span>
+        <h2>Ogni animale della tua famiglia, splendidamente organizzato.</h2>
+        <p>
+          Cani. Gatti. Uccelli. Conigli, criceti, furetti, porcellini d'India — tutta la gamma
+          dei piccoli animali. Ogni animale ha un profilo ricco: specie, razza, colori, marcature, microchip,
+          sesso, data di nascita, foto, note. Il selettore conosce oltre 100 razze canine, oltre 40 feline,
+          34 specie di uccelli e 44 razze di piccoli animali — con colori specifici per specie e una
+          voce personalizzata per i casi davvero unici.
+        </p>
+        <ul class="feature__list">
+          <li>Gli animali fissati appaiono per primi in ogni schermata</li>
+          <li>Fotocamera integrata e ritaglio quadrato per i ritratti</li>
+          <li>Una foto per animale per la massima semplicità — niente gallerie rumorose</li>
+        </ul>
+      </div>
+      <div class="reveal reveal--delay-1">
+        <div class="phone" data-parallax>
+          <div class="phone__screen">
+            <picture>
+              <source srcset="/assets/img/screenshots/pets-dark.png" media="(prefers-color-scheme: dark)">
+              <img src="/assets/img/screenshots/pets-light.png" alt="Elenco animali" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-row feature-row--reverse feature" data-tint="blue">
+      <div class="reveal">
+        <span class="feature__kicker"><span class="feature__kicker-dot"></span>Una cartella, non una scatola da scarpe</span>
+        <h2>Cartelle mediche che smettono di essere sparse.</h2>
+        <p>
+          Peso, vaccini, farmaci, visite veterinarie, toelettatura, chirurgia, allergie,
+          sverminazione, antipulci — MyPetLogger dà a ciascuno il proprio modulo, la propria lista
+          e il proprio conto alla rovescia per la "prossima scadenza". Basta cacciare carte, basta screenshot
+          sepolti nel rullino, basta "aspetta, quando è stata l'ultima antirabbica?"
+        </p>
+        <ul class="feature__list">
+          <li>Date di prossima scadenza con avvisi di ritardo nella scheda Riepilogo</li>
+          <li>Calendari dei farmaci con inizio, fine e dosaggio</li>
+          <li>Storico del peso con unità che rispettano la tua regione</li>
+          <li>Esportazione PDF da condividere con qualsiasi veterinario, ovunque</li>
+        </ul>
+      </div>
+      <div class="reveal reveal--delay-1">
+        <div class="phone" data-parallax>
+          <div class="phone__screen">
+            <picture>
+              <source srcset="/assets/img/screenshots/pet-detail-dark.png" media="(prefers-color-scheme: dark)">
+              <img src="/assets/img/screenshots/pet-detail-light.png" alt="Dettaglio animale con cartelle mediche" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-row feature" data-tint="orange">
+      <div class="reveal">
+        <span class="feature__kicker"><span class="feature__kicker-dot"></span>Vai a fare una passeggiata</span>
+        <h2>Tracciamento delle passeggiate, in modo nativo.</h2>
+        <p>
+          Scegli gli animali con cui cammini. Imposta un obiettivo di distanza, di tempo, o esci
+          libero. L'attività in tempo reale appare sulla schermata bloccata e nella Dynamic
+          Island, il percorso si disegna su una mappa MapKit, e quando finisci,
+          l'allenamento va dritto in Apple Salute — con il nome di ogni animale allegato come
+          metadato dell'allenamento.
+        </p>
+        <ul class="feature__list">
+          <li>Attività in tempo reale + Dynamic Island con tempo trascorso e progresso</li>
+          <li>Pausa e ripresa senza inquinare le tue statistiche</li>
+          <li>Sincronizzazione con Apple Salute come un vero HKWorkout con percorso GPS</li>
+          <li>"Ehi Siri, inizia una passeggiata in MyPetLogger"</li>
+        </ul>
+      </div>
+      <div class="reveal reveal--delay-1">
+        <div class="phone" data-parallax>
+          <div class="phone__screen">
+            <picture>
+              <source srcset="/assets/img/screenshots/walk-dark.png" media="(prefers-color-scheme: dark)">
+              <img src="/assets/img/screenshots/walk-light.png" alt="Vista in tempo reale della passeggiata con mappa" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-row feature-row--reverse feature" data-tint="green">
+      <div class="reveal">
+        <span class="feature__kicker"><span class="feature__kicker-dot"></span>La tua giornata a colpo d'occhio</span>
+        <h2>Una schermata Riepilogo davvero utile.</h2>
+        <p>
+          Apri l'app e vedi tutto — un saluto in base all'ora, il conteggio degli arretrati,
+          cosa arriva nei prossimi 30 giorni per ogni animale, e il tuo registro di attività
+          recente. Le Azioni Rapide sono a un tocco: registra un peso, annota una dose, avvia una
+          visita veterinaria, aggiungi un vaccino, inizia una passeggiata. Le stesse azioni vivono nel widget
+          della schermata Home, sul tuo Apple Watch e in Siri.
+        </p>
+        <ul class="feature__list">
+          <li>Il banner degli arretrati ti tiene in regola</li>
+          <li>Griglia di Azioni Rapide con cinque flussi a un tocco</li>
+          <li>In arrivo + Recentei per ogni animale, ordinati per data</li>
+          <li>Gradiente d'ambiente che si adatta a chiaro e scuro</li>
+        </ul>
+      </div>
+      <div class="reveal reveal--delay-1">
+        <div class="phone" data-parallax>
+          <div class="phone__screen">
+            <picture>
+              <source srcset="/assets/img/screenshots/summary-dark.png" media="(prefers-color-scheme: dark)">
+              <img src="/assets/img/screenshots/summary-light.png" alt="Scheda Riepilogo" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-row feature" data-tint="pink">
+      <div class="reveal">
+        <span class="feature__kicker"><span class="feature__kicker-dot"></span>La mappa che ti serve in un'emergenza</span>
+        <h2>Veterinari, parchi, spa nelle vicinanze — undici categorie, una sola ricerca.</h2>
+        <p>
+          Una sola barra di ricerca in vetro che accetta città, indirizzi e CAP da
+          ogni parte del mondo. Undici categorie — Cliniche veterinarie, Pronto soccorso, Negozi
+          per animali, Spa per animali, Addestramento, Hotel pet-friendly, Aree cani,
+          Aree senza guinzaglio, Rifugi e altro. Le indicazioni si aprono nella tua app di mappe preferita — Apple
+          Mappe, Google Maps o Waze. Chiama, scrivi o visita un sito web direttamente dalla
+          scheda del luogo.
+        </p>
+        <ul class="feature__list">
+          <li>Autocompletamento in tempo reale con MKLocalSearchCompleter</li>
+          <li>Pillola "Cerca in quest'area" quando sposti la mappa</li>
+          <li>Popover dei filtri Liquid Glass, interattivo finché non tocchi fuori</li>
+        </ul>
+      </div>
+      <div class="reveal reveal--delay-1">
+        <div class="phone" data-parallax>
+          <div class="phone__screen">
+            <picture>
+              <source srcset="/assets/img/screenshots/map-dark.png" media="(prefers-color-scheme: dark)">
+              <img src="/assets/img/screenshots/map-light.png" alt="Mappa dei veterinari nelle vicinanze" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-row feature-row--reverse feature" data-tint="purple">
+      <div class="reveal">
+        <span class="feature__kicker"><span class="feature__kicker-dot"></span>Per allevatori seri</span>
+        <h2>Un Toolkit per Allevatori, se ne hai bisogno.</h2>
+        <p>
+          Attiva un solo interruttore e all'app cresce una quinta scheda: Cucciolate, Cicli di calore, Registri
+          di accoppiamento, Certificazioni sanitarie, tracciamento della Prole, cronologie di Cuccioli/Gattini. Progettato
+          con la calma editoriale del resto dell'app — niente fogli di calcolo, niente tabelle
+          rosse urlanti. Disattivato per default, perché la maggior parte non ne ha bisogno.
+        </p>
+        <ul class="feature__list">
+          <li>Previsioni dei cicli di calore e finestre di accoppiamento</li>
+          <li>Registrazioni per ogni cucciolo con i genitori collegati</li>
+          <li>Certificazioni etichettate con scadenza e certificatore</li>
+        </ul>
+      </div>
+      <div class="reveal reveal--delay-1">
+        <div class="phone" data-parallax>
+          <div class="phone__screen">
+            <picture>
+              <source srcset="/assets/img/screenshots/breeder-dark.png" media="(prefers-color-scheme: dark)">
+              <img src="/assets/img/screenshots/breeder-light.png" alt="Toolkit per Allevatori" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ TRIAD: Watch / Widgets / Siri ============ -->
+<section class="tight">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">Profondamente nativo</span>
+      <h2>Ogni superficie Apple, usata nel modo giusto.</h2>
+      <p style="font-size: 1.1rem;">Non abbiamo portato un framework multipiattaforma. Abbiamo costruito MyPetLogger come app SwiftUI
+      per l'ecosistema Apple, e abbiamo usato ogni suo angolo.</p>
+    </div>
+    <div class="triad">
+      <div class="triad__card reveal">
+        <div class="triad__icon">⌚</div>
+        <h3>Apple Watch</h3>
+        <p>Un compagno watchOS con schede colpo d'occhio per animale per il prossimo vaccino e dose,
+          un selettore di peso con la Digital Crown, registrazione dose con un tocco, e due complicazioni per ogni
+          famiglia di accessori. Sincronizza tramite WatchConnectivity, lettura e scrittura unidirezionali.</p>
+      </div>
+      <div class="triad__card reveal reveal--delay-1">
+        <div class="triad__icon">▣</div>
+        <h3>Widget &amp; Dynamic Island</h3>
+        <p>Home Screen Quick Actions widget deep-links into the exact same sheets the
+          Scheda Riepilogo opens. The Walks Live Activity renders a full Dynamic Island — compact,
+          expanded, minimal — with elapsed time, distance, and a progress bar.</p>
+      </div>
+      <div class="triad__card reveal reveal--delay-2">
+        <div class="triad__icon">◎</div>
+        <h3>Siri &amp; Comandi rapidi</h3>
+        <p>Cinque App Intents — Registra peso, Registra farmaco, Nuova visita vet, Aggiungi vaccino,
+          Inizia passeggiata — ognuno accetta un parametro animale opzionale. Crea automazioni, attiva
+          dai modi Full Immersion, o di' semplicemente ad alta voce.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRIVACY ============ -->
+<section id="privacy">
+  <div class="container">
+    <div class="pledge reveal">
+      <div class="pledge__icon">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="36" height="36" aria-hidden="true">
+          <path d="M12 1L3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4zm-2 16l-4-4 1.4-1.4L10 14.2l6.6-6.6L18 9l-8 8z"/>
+        </svg>
+      </div>
+      <span class="eyebrow">L'impegno per la privacy</span>
+      <h2>La vita del tuo animale non sono affari nostri.</h2>
+      <p class="pledge__quote">
+        «Non abbiamo mai voluto costruire un'azienda che vendesse dati sugli animali. Quindi non l'abbiamo fatto.
+        MyPetLogger non ha account, niente server nostri, niente analitiche che ti guardano da sopra la spalla.
+        Le cartelle del tuo animale vivono sul tuo iPhone, e se attivi iCloud, vivono nel tuo
+        iCloud privato. Questa è tutta la storia.»
+      </p>
+      <div class="pledge__points">
+        <div class="pledge__point">
+          <h4>Nessun account.</h4>
+          <p>Apri l'app e inizia. Niente email, niente password, niente labirinto di benvenuto.</p>
+        </div>
+        <div class="pledge__point">
+          <h4>Nessun server nostro.</h4>
+          <p>La sincronizzazione iCloud va da Apple a te. Non stiamo in mezzo e non possiamo leggerla.</p>
+        </div>
+        <div class="pledge__point">
+          <h4>Nessun tracciamento.</h4>
+          <p>Non vendiamo i tuoi dati. Non li abbiamo. Non li vogliamo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section id="pricing">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">Prezzi</span>
+      <h2>Gratis per iniziare. Tua per sempre, se vuoi.</h2>
+      <p style="font-size: 1.1rem;">Inizia gratis con due animali. Aggiorna quando sei pronto. A vita per chi preferisce pagare una volta sola.</p>
+    </div>
+
+    <div class="pricing">
+      <div class="price reveal">
+        <div class="price__tier">Gratis</div>
+        <div class="price__amount">$0</div>
+        <p class="price__tag">Tutta l'app fino a due animali. Per sempre.</p>
+        <ul class="price__list">
+          <li>2 profili animali</li>
+          <li>Tutte le cartelle mediche</li>
+          <li>Tracciamento passeggiate</li>
+          <li>Sincronizzazione iCloud</li>
+          <li>Apple Watch + widget + Siri</li>
+          <li class="dim">Animali illimitati</li>
+          <li class="dim">Esportazione PDF</li>
+          <li class="dim">Senza pubblicità</li>
+        </ul>
+      </div>
+
+      <div class="price reveal reveal--delay-1">
+        <div class="price__tier">Ad-Gratis</div>
+        <div class="price__amount">9,99 $<small> / anno</small></div>
+        <p class="price__tag">Toglie solo le pubblicità. Nient'altro cambia.</p>
+        <ul class="price__list">
+          <li>Everything in Gratis</li>
+          <li>Zero pubblicità, da nessuna parte</li>
+          <li class="dim">Animali illimitati</li>
+          <li class="dim">Esportazione PDF</li>
+          <li class="dim">Icone premium</li>
+        </ul>
+      </div>
+
+      <div class="price price--featured reveal reveal--delay-2" data-badge="Più popolare">
+        <div class="price__tier">Premium Annuale</div>
+        <div class="price__amount">39,99 $<small> / anno</small></div>
+        <p class="price__tag">Risparmia il 33% rispetto al mensile. Sblocca tutto.</p>
+        <ul class="price__list">
+          <li>Animali illimitati</li>
+          <li>Toolkit per Allevatori</li>
+          <li>Esportazione PDF</li>
+          <li>Icone premium dell'app</li>
+          <li>Senza pubblicità</li>
+          <li>Tutte le future funzioni Premium</li>
+        </ul>
+      </div>
+
+      <div class="price reveal reveal--delay-3">
+        <div class="price__tier">A vita</div>
+        <div class="price__amount">49,99 $<small> una sola volta</small></div>
+        <p class="price__tag">Paga una volta. Tua per sempre. La nostra opzione preferita.</p>
+        <ul class="price__list">
+          <li>Tutto quello che c'è in Premium</li>
+          <li>Un solo pagamento, nessun rinnovo</li>
+          <li>Tutte le future funzioni Premium</li>
+        </ul>
+      </div>
+    </div>
+
+    <p style="text-align:center; color: var(--text-mute); font-size: 0.9rem; margin-top: 28px;">
+      Premium Mensile disponibile anche a 4,99 $ / mese.
+    </p>
+  </div>
+</section>
+
+<!-- ============ FOUNDER STORY ============ -->
+<section>
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto 48px;">
+      <span class="eyebrow">Perché l'abbiamo costruita</span>
+      <h2>Una nota dello sviluppatore.</h2>
+    </div>
+    <div class="founder reveal">
+      <p>
+        Volevo organizzare i libretti vaccinali dei miei cani da circa tre anni.
+        I documenti vivevano in una cartella sulla scrivania, una seconda in un cassetto, un Google Drive
+        con nomi di file in conflitto, tre note sul telefono, e la mia memoria — che era
+        l'archivio meno affidabile dei cinque. Ogni volta che andavo dal veterinario, riscopri
+        gli stessi fatti, ristampavo le stesse stampe e riscrivevo le stesse date sugli stessi
+        moduli.
+      </p>
+      <p>
+        Le app che ho trovato volevano farmi creare un account, o mostrarmi pubblicità di
+        crocchette, o vendermi un abbonamento per una funzione che avrebbe dovuto essere
+        di base. Nessuna sembrava il tipo di app che apriresti una domenica tranquilla e
+        saresti contento di tenere aperta dieci minuti.
+      </p>
+      <p>
+        Quindi ho costruito MyPetLogger — prima per me, e per chiunque sia mai stato al
+        bancone di un veterinario sfogliando il telefono cercando la parola esatta «Bordetella».
+        È SwiftUI dall'alto in basso. Usa i framework Apple come vogliono essere
+        usati. È tradotto in nove lingue. Sincronizza tramite il tuo iCloud, non il nostro.
+        Ed è gratis fino a due animali — non come prova, ma come livello permanente, perché
+        la maggior parte delle famiglie ha davvero uno o due compagni e meritano anche loro una buona casa.
+      </p>
+      <p>
+        Se la provi e ti sembra giusta, manda un messaggio. Se ti sembra sbagliata, mandane uno più forte.
+        Questa app migliora perché la gente mi dice di cosa ha bisogno.
+      </p>
+      <p class="founder__sig">— Victor, LCVSystems</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ LANGUAGES ============ -->
+<section class="tight">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">Fourteen languages</span>
+      <h2>Tradotta con cura.</h2>
+      <p style="font-size: 1.05rem;">Ogni stringa, ogni modulo, ogni avviso — non una traduzione automatica dell'ultimo minuto.</p>
+    </div>
+    <div class="langs reveal">
+      <span class="lang-chip">English</span>
+      <span class="lang-chip">English (UK)</span>
+      <span class="lang-chip">Español (LatAm)</span>
+      <span class="lang-chip">Español (España)</span>
+      <span class="lang-chip">Français</span>
+      <span class="lang-chip">Italiano</span>
+      <span class="lang-chip">Deutsch</span>
+      <span class="lang-chip">Nederlands</span>
+      <span class="lang-chip">Português (BR)</span>
+      <span class="lang-chip">Português (PT)</span>
+      <span class="lang-chip">Русский</span>
+      <span class="lang-chip">日本語</span>
+      <span class="lang-chip">한국어</span>
+      <span class="lang-chip">简体中文</span>
+      <span class="lang-chip">العربية</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHANGELOG TEASER ============ -->
+<section>
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">Sempre in consegna</span>
+      <h2>Cosa c'è di nuovo, di recente.</h2>
+      <p style="font-size: 1.05rem;">Un piccolo assaggio del registro. Il registro completo vive dentro l'app, in Impostazioni → Novità.</p>
+    </div>
+    <div class="changelog">
+      <div class="changelog__entry reveal">
+        <div class="changelog__date">Ultimo</div>
+        <div class="changelog__title">Tracciamento passeggiate with Live Activity &amp; Dynamic Island</div>
+        <p class="changelog__desc">Un flusso di passeggiate nuovo di zecca — obiettivi di distanza, di tempo, sincronizzazione Apple Salute, Comando rapido Siri per iniziare una passeggiata e un'espansione completa della Dynamic Island.</p>
+      </div>
+      <div class="changelog__entry reveal">
+        <div class="changelog__date">Recente</div>
+        <div class="changelog__title">Settings overhaul &amp; Sincronizzazione iCloud controls</div>
+        <p class="changelog__desc">HealthKit is now opt-in on first walk. Sincronizzazione iCloud has its own section with Sync Now, Last Sync, and a Delete Cloud Data button.</p>
+      </div>
+      <div class="changelog__entry reveal">
+        <div class="changelog__date">Recente</div>
+        <div class="changelog__title">Compagno Apple Watch + complicazioni</div>
+        <p class="changelog__desc">Colpo d'occhio watchOS, selettore di peso con la Digital Crown, registrazione dose con un tocco, e due complicazioni per ogni famiglia di accessori.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Domande, risposte.</h2>
+    </div>
+    <div class="faq">
+      <details class="faq__item reveal"><summary class="faq__q">Quali animali supporta?</summary><div class="faq__a">Tutti. Cani e gatti sono cittadini di prima classe, ma il selettore di specie copre anche uccelli, conigli, furetti, criceti, porcellini d'India, rettili, pesci, e una voce libera per qualsiasi cosa davvero insolita. Ogni specie ha la propria lista di razze, palette di colori e icona — e ogni animale, indipendentemente dalla specie, ha la cronologia medica completa, i promemoria e le azioni rapide.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Esiste una versione Android?</summary><div class="faq__a">Oggi no. MyPetLogger è costruita in SwiftUI per sembrare profondamente nativa sulle piattaforme Apple — Attività in tempo reale, Dynamic Island, Siri Intents, HealthKit, WatchConnectivity. Preferiamo fare una piattaforma bene che due male.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Mi serve un account?</summary><div class="faq__a">No. There's no sign-up, no email, no password. Open the app and start. If you turn on Sincronizzazione iCloud, your records move between your own devices through your own Apple ID — never through us.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Cosa sapete davvero di me?</summary><div class="faq__a">Quasi niente. Vediamo rapporti di crash anonimi se hai attivato l'analitica di Apple, e vediamo i conteggi aggregati di download dall'App Store. Non abbiamo un database di utenti, né una lista di nomi di animali, né un modo per contattarti a meno che tu non ci scriva prima.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Posso esportare i miei dati?</summary><div class="faq__a">Yes. Premium unlocks full Esportazione PDF per pet — perfect for a new vet, an insurance claim, or just a keepsake. The data itself lives in Core Data on-device, so you're never locked in.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Cosa succede se cancello Premium?</summary><div class="faq__a">Your data is yours forever. If you drop back to the Gratis tier, existing pets above the two-pet limit remain visible and editable, but you'll need to remove one before adding a new one.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Usate pubblicità?</summary><div class="faq__a">Gratis users see occasional banners and an interstitial after every third log entry. Paid users — Ad-Gratis, Premium, A vita — see zero ads, ever. Ads never appear inside log forms or on the Map tab.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Funziona su iPad?</summary><div class="faq__a">Sì. L'iPad ha la stessa barra delle schede dell'iPhone tramite il TabView adattivo a barra laterale di SwiftUI, quindi ogni schermata è raggiungibile e il layout si espande con grazia.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Esiste un'app web?</summary><div class="faq__a">No, e non ci sarà. «App web» significa «dati sui nostri server», e i nostri dati sono sul tuo telefono. Se mai ne facessimo una, questa pagina sarebbe diversa.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRESS / CONTACT ============ -->
+<section class="tight">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
+      <span class="eyebrow">Stampa &amp; contatti</span>
+      <h2>Salutaci.</h2>
+    </div>
+    <div class="press">
+      <div class="press__card reveal">
+        <h3>Stampa kit</h3>
+        <p>Scrivi di MyPetLogger? Saremo felici di aiutarti. Scrivici per icone, screenshot, mockup di dispositivi, foto del fondatore e codici di review.</p>
+        <p><a href="mailto:support@mypetlogger.com?subject=Stampa%20inquiry">support@mypetlogger.com</a></p>
+      </div>
+      <div class="press__card reveal reveal--delay-1">
+        <h3>Assistenza</h3>
+        <p>Qualcosa rotto? Un'idea per una funzione? Aiuto per esportare i dati? Esseri umani veri leggono ogni email.</p>
+        <p><a href="mailto:support@mypetlogger.com">support@mypetlogger.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <picture class="logo-swap">
+            <source srcset="/assets/img/logo-dark.png" media="(prefers-color-scheme: dark)">
+            <img src="/assets/img/logo-light.png" alt="">
+          </picture>
+          <span>MyPetLogger</span>
+        </div>
+        <p>Il diario per il tuo animale che terrai davvero. Una bellissima app iOS nativa per ogni momento della vita del tuo animale.</p>
+      </div>
+      <div>
+        <h4>Prodotto</h4>
+        <ul>
+          <li><a href="#features">Funzioni</a></li>
+          <li><a href="#pricing">Prezzi</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><span style="opacity:0.6">App Store (in arrivo)</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Azienda</h4>
+        <ul>
+          <li><a href="https://lcvsystems.com">LCVSystems</a></li>
+          <li><a href="mailto:support@mypetlogger.com">Assistenza</a></li>
+          <li><a href="mailto:support@mypetlogger.com?subject=Stampa">Stampa</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legale</h4>
+        <ul>
+          <li><a href="/it/privacy/">Privacy</a></li>
+          <li><a href="/it/terms/">Terms</a></li>
+          <li><a href="/it/age-rating/">Idoneità per età (9+)</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div>© 2026 LCVSystems LLC. Fatto con cura negli Stati Uniti.</div>
+      <div class="footer__social">
+        <a href="https://twitter.com/mypetlogger" aria-label="Twitter / X">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.451-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg>
+        </a>
+        <a href="https://instagram.com/mypetlogger" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.71 3.71 0 0 1-.9 1.38c-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9a3.71 3.71 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38A5.88 5.88 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13a5.88 5.88 0 0 0 2.13 1.38c.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.88 5.88 0 0 0 2.13-1.38 5.88 5.88 0 0 0 1.38-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.88 5.88 0 0 0-1.38-2.13A5.88 5.88 0 0 0 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

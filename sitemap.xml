@@ -4,43 +4,1261 @@
   <url>
     <loc>https://mypetlogger.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mypetlogger.com/es/</loc>
+    <loc>https://mypetlogger.com/en-gb/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es-es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es-la/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-br/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/"/>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mypetlogger.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/en-gb/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es-es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es-la/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/fr/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-br/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-pt/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/it/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/de/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ja/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/zh/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ru/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/nl/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ar/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ko/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/privacy/"/>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mypetlogger.com/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mypetlogger.com/es/privacy/</loc>
+    <loc>https://mypetlogger.com/en-gb/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mypetlogger.com/es/terms/</loc>
+    <loc>https://mypetlogger.com/es-es/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es-la/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/fr/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-br/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-pt/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/it/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/de/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ja/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/zh/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ru/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/nl/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ar/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ko/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/terms/"/>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mypetlogger.com/age-rating/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/age-rating/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mypetlogger.com/es/age-rating/</loc>
+    <loc>https://mypetlogger.com/en-gb/age-rating/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es-es/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/es-la/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/fr/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-br/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/pt-pt/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/it/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/de/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ja/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/zh/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ru/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/nl/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ar/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mypetlogger.com/ko/age-rating/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mypetlogger.com/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://mypetlogger.com/en-gb/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mypetlogger.com/es-es/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="es-419" href="https://mypetlogger.com/es-la/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mypetlogger.com/fr/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://mypetlogger.com/pt-br/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://mypetlogger.com/pt-pt/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mypetlogger.com/it/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mypetlogger.com/de/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mypetlogger.com/ja/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mypetlogger.com/zh/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mypetlogger.com/ru/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mypetlogger.com/nl/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mypetlogger.com/ar/age-rating/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mypetlogger.com/ko/age-rating/"/>
     <priority>0.5</priority>
   </url>
 </urlset>
