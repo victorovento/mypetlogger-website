@@ -109,9 +109,9 @@ p { margin: 0 0 1em; color: var(--text-dim); }
   margin: 0 auto;
   padding-inline: max(24px, env(safe-area-inset-left)) max(24px, env(safe-area-inset-right));
 }
-@media (max-width: 600px) {
-  .nav__inner {
-    padding-inline: 8px;
+@media (max-width: 860px) {
+  .nav .container {
+    padding-inline: max(32px, env(safe-area-inset-left)) max(24px, env(safe-area-inset-right));
   }
 }
 
