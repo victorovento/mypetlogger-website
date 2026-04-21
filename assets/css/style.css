@@ -107,7 +107,12 @@ p { margin: 0 0 1em; color: var(--text-dim); }
 .container {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0 24px;
+  padding-inline: max(24px, env(safe-area-inset-left)) max(24px, env(safe-area-inset-right));
+}
+@media (max-width: 600px) {
+  .nav__inner {
+    padding-inline: 8px;
+  }
 }
 
 /* ============ Nav ============ */
