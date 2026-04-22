@@ -10,8 +10,8 @@ HOME = [
     # ---------- <head> ----------
     ("MyPetLogger — The pet journal you'll actually keep",
      "MyPetLogger — Le journal pour animaux que vous tiendrez vraiment"),
-    ("A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders, breeder tools. Private by design, no accounts, no tracking.",
-     "Une application iOS magnifiquement native pour tous les animaux — chiens, chats, oiseaux, lapins, furets et plus encore. Dossiers médicaux, promenades, rappels, outils d'élevage. Privée par conception, sans compte, sans pistage."),
+    ("A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design, no accounts, no tracking.",
+     "Une application iOS magnifiquement native pour tous les animaux — chiens, chats, oiseaux, lapins, furets et plus encore. Dossiers médicaux, promenades, rappels. Privée par conception, sans compte, sans pistage."),
     ("A beautifully native iOS app for every moment of your pet's life. Private by design.",
      "Une application iOS magnifiquement native pour chaque instant de la vie de votre animal. Privée par conception."),
 
@@ -116,20 +116,6 @@ HOME = [
      "Fenêtre flottante de filtres Liquid Glass, interactive jusqu'à ce que vous touchiez ailleurs"),
     ("Nearby vets map", "Carte des vétérinaires à proximité"),
 
-    # ---------- FEATURE 6 ----------
-    ("For serious breeders", "Pour les éleveurs sérieux"),
-    ("A Breeder Toolkit, if you need one.",
-     "Une boîte à outils d'éleveur, si vous en avez besoin."),
-    ("Turn on one toggle and the app grows a fifth tab: Litters, Heat Cycles, Breeding\n          Records, Health Clearances, Offspring tracking, Puppy/Kitten timelines. Designed\n          with the editorial calm of the rest of the app — no spreadsheets, no screaming\n          red tables. Off by default, because most people don't need it.",
-     "Activez un seul interrupteur et l'application fait pousser un cinquième onglet : Portées, Cycles de chaleur, Registres\n          d'élevage, Certificats de santé, Suivi de la descendance, Chronologies des chiots/chatons. Conçu\n          avec le calme éditorial du reste de l'application — pas de tableurs, pas de tableaux\n          criards. Désactivé par défaut, car la plupart des gens n'en ont pas besoin."),
-    ("Heat cycle predictions and breeding windows",
-     "Prédictions des cycles de chaleur et fenêtres de reproduction"),
-    ("Per-offspring records with parents linked back",
-     "Dossiers par descendant avec parents liés en arrière"),
-    ("Clearances tagged with expiration and certifier",
-     "Certificats étiquetés avec date d'expiration et certificateur"),
-    ("Breeder Toolkit", "Boîte à outils d'éleveur"),
-
     # ---------- TRIAD ----------
     ("Deeply native", "Profondément native"),
     ("Every Apple surface, used the right way.",
@@ -190,7 +176,6 @@ HOME = [
     ("$39.99<small> / year</small>", "39,99 $<small> / an</small>"),
     ("Save 33% vs monthly. Unlocks everything.",
      "Économisez 33 % par rapport au mensuel. Débloque tout."),
-    ("Breeder Toolkit", "Boîte à outils d'éleveur"),
     ("Premium app icons", "Icônes d'application premium"),
     ("All future Premium features", "Toutes les futures fonctionnalités Premium"),
     ("Lifetime", "Vie entière"),

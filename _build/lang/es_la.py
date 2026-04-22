@@ -7,8 +7,8 @@ HOME = [
     # head
     ("MyPetLogger — The pet journal you'll actually keep",
      "MyPetLogger — El diario de tu mascota que sí vas a mantener"),
-    ("A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders, breeder tools. Private by design, no accounts, no tracking.",
-     "Una hermosa app nativa de iOS para todo tipo de mascota — perros, gatos, aves, conejos, hurones y más. Historial médico, paseos, recordatorios, herramientas de criadero. Privada por diseño, sin cuentas, sin rastreo."),
+    ("A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design, no accounts, no tracking.",
+     "Una hermosa app nativa de iOS para todo tipo de mascota — perros, gatos, aves, conejos, hurones y más. Historial médico, paseos, recordatorios. Privada por diseño, sin cuentas, sin rastreo."),
     ("A beautifully native iOS app for every moment of your pet's life. Private by design.",
      "Una hermosa app nativa de iOS para cada momento de la vida de tu mascota. Privada por diseño."),
 
@@ -108,20 +108,6 @@ HOME = [
     ("Liquid Glass filter popover, interactive until you tap away",
      "Ventana flotante de filtros Liquid Glass, interactiva hasta que toques afuera"),
     ("Nearby vets map", "Mapa de veterinarios cercanos"),
-
-    # feature 6
-    ("For serious breeders", "Para criadores serios"),
-    ("A Breeder Toolkit, if you need one.",
-     "Un Kit de Criador, si lo necesitas."),
-    ("Turn on one toggle and the app grows a fifth tab: Litters, Heat Cycles, Breeding\n          Records, Health Clearances, Offspring tracking, Puppy/Kitten timelines. Designed\n          with the editorial calm of the rest of the app — no spreadsheets, no screaming\n          red tables. Off by default, because most people don't need it.",
-     "Activa un solo interruptor y a la app le crece una quinta pestaña: Camadas, Ciclos de Celo, Registros\n          de Cría, Certificados de Salud, Seguimiento de Crías, líneas de tiempo de Cachorros/Gatitos. Diseñado\n          con la calma editorial del resto de la app — sin hojas de cálculo, sin tablas\n          rojas chillonas. Desactivado por defecto, porque la mayoría no lo necesita."),
-    ("Heat cycle predictions and breeding windows",
-     "Predicciones de ciclos de celo y ventanas de cría"),
-    ("Per-offspring records with parents linked back",
-     "Registros por cría con los padres enlazados"),
-    ("Clearances tagged with expiration and certifier",
-     "Certificados etiquetados con vencimiento y certificador"),
-    ("Breeder Toolkit", "Kit de Criador"),
 
     # triad
     ("Deeply native", "Profundamente nativo"),
