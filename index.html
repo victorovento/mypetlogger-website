@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MyPetLogger — The pet journal you'll actually keep</title>
-  <meta name="description" content="A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design, no accounts, no tracking.">
-  <meta name="keywords" content="pet app, pet journal, pet medical records, vaccination tracker, dog walk tracker, cat health log, vet visit reminder, pet care app, iOS pet app, private pet log">
+  <meta name="description" content="A beautifully native iOS and Android app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design, no accounts, no tracking.">
+  <meta name="keywords" content="pet app, pet journal, pet medical records, vaccination tracker, dog walk tracker, cat health log, vet visit reminder, pet care app, iOS pet app, android pet app, private pet log">
   <meta name="author" content="LC&amp;V Systems LLC">
   <meta name="publisher" content="LC&amp;V Systems LLC">
   <meta name="application-name" content="MyPetLogger">
@@ -45,7 +45,7 @@
   <meta property="og:site_name" content="MyPetLogger">
   <meta property="og:url" content="https://mypetlogger.com/">
   <meta property="og:title" content="MyPetLogger — The pet journal you'll actually keep">
-  <meta property="og:description" content="A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Private by design, no accounts, no tracking.">
+  <meta property="og:description" content="A beautifully native iOS and Android app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Private by design, no accounts, no tracking.">
   <meta property="og:image" content="https://mypetlogger.com/assets/img/logo.png">
   <meta property="og:image:secure_url" content="https://mypetlogger.com/assets/img/logo.png">
   <meta property="og:image:type" content="image/png">
@@ -73,7 +73,7 @@
   <meta name="twitter:creator" content="@mypetlogger">
   <meta name="twitter:url" content="https://mypetlogger.com/">
   <meta name="twitter:title" content="MyPetLogger — The pet journal you'll actually keep">
-  <meta name="twitter:description" content="A beautifully native iOS app for every kind of pet. Private by design, no accounts, no tracking.">
+  <meta name="twitter:description" content="A beautifully native iOS and Android app for every kind of pet. Private by design, no accounts, no tracking.">
   <meta name="twitter:image" content="https://mypetlogger.com/assets/img/logo.png">
   <meta name="twitter:image:alt" content="MyPetLogger app icon">
 
@@ -124,7 +124,7 @@
         "@id": "https://mypetlogger.com/#website",
         "url": "https://mypetlogger.com/",
         "name": "MyPetLogger",
-        "description": "The pet journal you'll actually keep — a private, native iOS app for every kind of pet.",
+        "description": "The pet journal you'll actually keep — a private, native iOS and Android app for every kind of pet.",
         "publisher": { "@id": "https://lcvsystems.com/#organization" },
         "inLanguage": "en"
       },
@@ -133,7 +133,7 @@
         "@id": "https://mypetlogger.com/#app",
         "name": "MyPetLogger",
         "alternateName": "My Pet Logger",
-        "operatingSystem": "iOS 17+",
+        "operatingSystem": "iOS 17+, Android 10+",
         "applicationCategory": "LifestyleApplication",
         "applicationSubCategory": "Pet Care",
         "url": "https://mypetlogger.com/",
@@ -144,7 +144,7 @@
           "https://mypetlogger.com/assets/img/screenshots/walk-light.webp",
           "https://mypetlogger.com/assets/img/screenshots/map-light.webp"
         ],
-        "description": "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design.",
+        "description": "A beautifully native iOS and Android app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design.",
         "inLanguage": ["en", "en-GB", "es", "es-ES", "fr", "it", "de", "nl", "pt-BR", "pt-PT", "ru", "ja", "ko", "zh-Hans", "ar"],
         "contentRating": "9+",
         "author": { "@id": "https://lcvsystems.com/#organization" },
@@ -164,7 +164,7 @@
           { "@type": "Question", "name": "Which pets does it support?",
             "acceptedAnswer": { "@type": "Answer", "text": "All of them. Dogs and cats are first-class citizens, but the species picker also covers birds, rabbits, ferrets, hamsters, guinea pigs, reptiles, fish, and a free-text fallback for anything truly unusual." } },
           { "@type": "Question", "name": "Is there an Android version?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Not today. MyPetLogger is built in SwiftUI to feel deeply native on Apple's platforms." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes — Android is on its way. MyPetLogger will be available on the Google Play Store for Android 10 and up, built natively with the same obsessive attention to detail as the iOS version." } },
           { "@type": "Question", "name": "Do I need an account?",
             "acceptedAnswer": { "@type": "Answer", "text": "No. There's no sign-up, no email, no password. Open the app and start. iCloud sync uses your own Apple ID." } },
           { "@type": "Question", "name": "What do you actually know about me?",
@@ -244,9 +244,9 @@
       <span class="eyebrow">A love letter to your pet</span>
       <h1 class="hero__title">The pet journal<br>you'll <em>actually</em> keep.</h1>
       <p class="hero__lede">
-        MyPetLogger is the iOS app for every companion in your home — dogs, cats, birds, rabbits,
+        MyPetLogger is the app for every companion in your home — dogs, cats, birds, rabbits,
         ferrets, hamsters and the rest. An obsessively polished place to keep every vaccine,
-        every walk, every vet visit, every milestone. It lives on your iPhone. Nowhere else.
+        every walk, every vet visit, every milestone. It lives on your device. Nowhere else.
         No accounts. No tracking. No noise.
       </p>
       <div class="hero__ctas">
@@ -257,13 +257,20 @@
             <span class="appstore__big">App Store</span>
           </span>
         </span>
+        <span class="playstore is-disabled" role="button" aria-disabled="true" aria-label="Coming soon on Google Play">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 18c0 .55.45 1 1 1h1v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h2v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h1c.55 0 1-.45 1-1V8H6v10zM3.5 8C2.67 8 2 8.67 2 9.5v7c0 .83.67 1.5 1.5 1.5S5 17.33 5 16.5v-7C5 8.67 4.33 8 3.5 8zm17 0c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5zm-4.97-5.84 1.3-1.3c.2-.2.2-.51 0-.71-.2-.2-.51-.2-.71 0l-1.48 1.48C14.15 1.23 13.1 1 12 1c-1.1 0-2.15.23-3.12.63L7.4.15c-.2-.2-.51-.2-.71 0-.2.2-.2.51 0 .71l1.31 1.31C6.1 3.26 5 5.01 5 7h14c0-1.99-1.1-3.74-2.47-4.84zM10 5H9V4h1v1zm5 0h-1V4h1v1z"/></svg>
+          <span>
+            <span class="playstore__small">Coming soon on</span>
+            <span class="playstore__big">Google Play</span>
+          </span>
+        </span>
         <a href="#features" class="btn-ghost">See what's inside →</a>
       </div>
-      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 17+</p>
+      <p class="hero__note">iOS 17+ &middot; iPad &middot; Apple Watch &middot; Android 10+</p>
     </div>
 
     <div class="reveal reveal--delay-1">
-      <div class="phone phone--tilt" data-parallax data-rotate="-4">
+      <div class="phone" data-parallax>
         <div class="phone__screen">
           <picture>
             <source srcset="/assets/img/screenshots/summary-dark.webp" media="(prefers-color-scheme: dark)">
@@ -281,9 +288,9 @@
     <p>
       Pet apps are usually one of two things: a glorified contact list for one species, or a
       data vacuum selling your pet's birthday to an ad broker. <strong>We wanted neither.</strong>
-      MyPetLogger is a calm, private, deeply native iOS app built around a single idea —
-      the person who loves your pet the most is you, and the place to remember their life
-      should feel like home, whether they bark, purr, chirp, or hop.
+      MyPetLogger is a calm, private, deeply native app — for iOS and Android — built around
+      a single idea: the person who loves your pet the most is you, and the place to remember
+      their life should feel like home, whether they bark, purr, chirp, or hop.
     </p>
   </div>
 </section>
@@ -356,16 +363,16 @@
         <h2>Walk tracking, done the native way.</h2>
         <p>
           Pick the pets you're walking with. Choose a distance goal, a time goal, or just
-          set out free. The Live Activity rides on your Lock Screen and in the Dynamic
-          Island, the route draws itself across a MapKit trail, and when you finish,
-          the workout goes straight to Apple Health — with every pet's name attached as
-          workout metadata.
+          set out free. Your route draws itself live across a real map as you go — distance,
+          duration, pace, all captured cleanly. When you're done, the walk is logged for
+          every pet you brought. On iOS, it also rides on your Lock Screen via Live Activity
+          and syncs to Apple Health as a full GPS-routed workout.
         </p>
         <ul class="feature__list">
-          <li>Live Activity + Dynamic Island with elapsed time and progress</li>
+          <li>Real-time map with live GPS route drawing</li>
           <li>Pause and resume without polluting your stats</li>
-          <li>Apple Health sync as a proper HKWorkout with GPS route</li>
-          <li>"Hey Siri, start a walk in MyPetLogger"</li>
+          <li>Live Activity + Dynamic Island on iOS</li>
+          <li>Apple Health on iOS · Google Health Connect on Android</li>
         </ul>
       </div>
       <div class="reveal reveal--delay-1">
@@ -388,8 +395,8 @@
           Open the app and see it all — a time-aware greeting, the count of overdue items,
           what's coming up in the next 30 days across every pet, and your recent activity
           log. Quick Actions sit a tap away: log a weight, record a dose, start a vet
-          visit, add a vaccination, begin a walk. Same actions live in the Home Screen
-          widget, on your Apple Watch, and in Siri.
+          visit, add a vaccination, begin a walk. On iOS, those same actions live in your
+          Home Screen widget, on Apple Watch, and in Siri.
         </p>
         <ul class="feature__list">
           <li>Overdue banner keeps you honest</li>
@@ -423,9 +430,9 @@
           location card.
         </p>
         <ul class="feature__list">
-          <li>Live autocomplete with MKLocalSearchCompleter</li>
+          <li>Live autocomplete as you type</li>
           <li>"Search this area" pill when you pan the map</li>
-          <li>Liquid Glass filter popover, interactive until you tap away</li>
+          <li>Filter popover, interactive until you tap away</li>
         </ul>
       </div>
       <div class="reveal reveal--delay-1">
@@ -447,10 +454,10 @@
 <section class="tight">
   <div class="container">
     <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
-      <span class="eyebrow">Deeply native</span>
+      <span class="eyebrow">Deeply native on iOS</span>
       <h2>Every Apple surface, used the right way.</h2>
-      <p style="font-size: 1.1rem;">We didn't port a cross-platform framework. We built MyPetLogger as a SwiftUI app
-      for the Apple ecosystem, and we used every corner of it.</p>
+      <p style="font-size: 1.1rem;">The iOS version is purpose-built in SwiftUI. We used every corner of Apple's
+      ecosystem — the way it was designed to be used. Android is coming next, built with the same dedication.</p>
     </div>
     <div class="triad">
       <div class="triad__card reveal">
@@ -475,6 +482,9 @@
           from Focus modes, or just say it out loud.</p>
       </div>
     </div>
+    <div class="android-callout reveal">
+      <p><strong>Android integration is on the way.</strong> Walk tracking, Health Connect sync, home screen widgets, and more — built natively for Android 10 and up. Same app, same care, different pocket.</p>
+    </div>
   </div>
 </section>
 
@@ -492,8 +502,9 @@
       <p class="pledge__quote">
         "We never wanted to build a company that sold data about pets. So we didn't.
         MyPetLogger has no accounts, no servers of ours, no analytics looking over your shoulder.
-        Your pet's records live on your iPhone, and if you turn on iCloud, they live in your
-        own private iCloud. That's the whole story."
+        Your pet's records live on your device. On iOS, iCloud sync is Apple-to-you — we're
+        not in the middle. On Android, records stay local on your phone. Either way, it's your
+        data, in your hands. That's the whole story."
       </p>
       <div class="pledge__points">
         <div class="pledge__point">
@@ -502,7 +513,7 @@
         </div>
         <div class="pledge__point">
           <h4>No servers of ours.</h4>
-          <p>iCloud sync is Apple-to-you. We aren't in the middle and we can't read it.</p>
+          <p>iCloud sync on iOS is Apple-to-you. On Android, data stays local on your device. We aren't in the middle and we can't read it.</p>
         </div>
         <div class="pledge__point">
           <h4>No tracking.</h4>
@@ -608,8 +619,11 @@
       <p>
         So I built MyPetLogger — for myself first, and for anyone who's ever stood at a
         vet's counter thumbing through a phone trying to find the exact word "Bordetella."
-        It's SwiftUI top to bottom. It uses the Apple frameworks the way they want to be
-        used. It's translated into nine languages. It syncs through your iCloud, not ours.
+        It started as SwiftUI top to bottom, using the Apple frameworks the way they want
+        to be used. Now it's coming to Android too — because not everyone carries an iPhone,
+        but everyone who loves their pet deserves a home for those memories. It's translated
+        into fifteen languages. On iOS it syncs through your iCloud, not ours. On Android,
+        it stays local on your phone.
         And it's free up to two pets — not as a trial, but as a permanent tier, because
         most households really do have one or two companions and they deserve a good home too.
       </p>
@@ -688,7 +702,7 @@
     </div>
     <div class="faq">
       <details class="faq__item reveal"><summary class="faq__q">Which pets does it support?</summary><div class="faq__a">All of them. Dogs and cats are first-class citizens, but the species picker also covers birds, rabbits, ferrets, hamsters, guinea pigs, reptiles, fish, and a free-text fallback for anything truly unusual. Each species gets its own breed list, color palette, and icon — and every pet, regardless of species, gets the full medical timeline, reminders, and quick actions.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">Is there an Android version?</summary><div class="faq__a">Not today. MyPetLogger is built in SwiftUI to feel deeply native on Apple's platforms — Live Activities, Dynamic Island, Siri Intents, HealthKit, WatchConnectivity. We'd rather do one platform well than two platforms badly.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Is there an Android version?</summary><div class="faq__a">Yes — Android is on its way. MyPetLogger will be available on the Google Play Store for Android 10 and up. We're building it with the same obsessive attention to detail as the iOS version: every feature you care about, built natively to feel right at home on your device.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">Do I need an account?</summary><div class="faq__a">No. There's no sign-up, no email, no password. Open the app and start. If you turn on iCloud sync, your records move between your own devices through your own Apple ID — never through us.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">What do you actually know about me?</summary><div class="faq__a">Almost nothing. We can see anonymous crash reports if you've opted into Apple's analytics, and we see aggregate download counts from the App Store. We have no database of users, no list of pet names, no way to contact you unless you email us first.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">Can I export my data?</summary><div class="faq__a">Yes. Premium unlocks full PDF export per pet — perfect for a new vet, an insurance claim, or just a keepsake. The data itself lives in Core Data on-device, so you're never locked in.</div></details>
@@ -734,7 +748,7 @@
           </picture>
           <span>MyPetLogger</span>
         </div>
-        <p>The pet journal you'll actually keep. A beautifully native iOS app for every moment of your pet's life.</p>
+        <p>The pet journal you'll actually keep. A beautifully native iOS and Android app for every moment of your pet's life.</p>
       </div>
       <div>
         <h4>Product</h4>
@@ -743,6 +757,7 @@
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#faq">FAQ</a></li>
           <li><span style="opacity:0.6">App Store (coming soon)</span></li>
+          <li><span style="opacity:0.6">Google Play (coming soon)</span></li>
         </ul>
       </div>
       <div>
