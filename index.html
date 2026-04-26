@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MyPetLogger — The pet journal you'll actually keep</title>
-  <meta name="description" content="A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders, breeder tools. Private by design, no accounts, no tracking.">
+  <meta name="description" content="A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design, no accounts, no tracking.">
   <meta name="keywords" content="pet app, pet journal, pet medical records, vaccination tracker, dog walk tracker, cat health log, vet visit reminder, pet care app, iOS pet app, private pet log">
   <meta name="author" content="LC&amp;V Systems LLC">
   <meta name="publisher" content="LC&amp;V Systems LLC">
@@ -133,7 +133,7 @@
         "@id": "https://mypetlogger.com/#app",
         "name": "MyPetLogger",
         "alternateName": "My Pet Logger",
-        "operatingSystem": "iOS 17+",
+        "operatingSystem": "iOS 26+",
         "applicationCategory": "LifestyleApplication",
         "applicationSubCategory": "Pet Care",
         "url": "https://mypetlogger.com/",
@@ -144,7 +144,7 @@
           "https://mypetlogger.com/assets/img/screenshots/walk-light.webp",
           "https://mypetlogger.com/assets/img/screenshots/map-light.webp"
         ],
-        "description": "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders, breeder tools. Private by design.",
+        "description": "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design.",
         "inLanguage": ["en", "en-GB", "es", "es-ES", "fr", "it", "de", "nl", "pt-BR", "pt-PT", "ru", "ja", "ko", "zh-Hans", "ar"],
         "contentRating": "9+",
         "author": { "@id": "https://lcvsystems.com/#organization" },
@@ -227,7 +227,7 @@
         <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         <svg class="theme-toggle__sun"  viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2v3m0-20v3m9 9h3M0 12h3m15.36 6.36 2.12 2.12M3.52 3.52l2.12 2.12m12.72 0 2.12-2.12M3.52 20.48l2.12-2.12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
       </button>
-      <span class="nav__cta is-disabled" aria-disabled="true">Coming soon</span>
+      <a class="nav__cta" href="https://testflight.apple.com/join/wNNGBdE8" target="_blank" rel="noopener">Join the beta</a>
     </div>
   </div>
 </nav>
@@ -250,16 +250,12 @@
         No accounts. No tracking. No noise.
       </p>
       <div class="hero__ctas">
-        <span class="appstore is-disabled" role="button" aria-disabled="true" aria-label="Coming soon to the App Store">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.02-2.76 2.25-4.08 2.35-4.15-1.28-1.87-3.27-2.13-3.97-2.16-1.69-.17-3.3 1-4.15 1-.86 0-2.18-.97-3.58-.94-1.84.03-3.54 1.07-4.49 2.72-1.91 3.32-.49 8.23 1.37 10.93.91 1.32 2 2.81 3.4 2.76 1.36-.06 1.88-.89 3.53-.89 1.65 0 2.11.89 3.56.86 1.47-.02 2.4-1.34 3.3-2.67 1.04-1.53 1.47-3.02 1.49-3.1-.03-.01-2.84-1.09-2.86-4.36zM14.5 4.07c.75-.92 1.26-2.19 1.12-3.46-1.08.04-2.4.72-3.19 1.62-.7.8-1.32 2.1-1.16 3.34 1.21.09 2.45-.61 3.23-1.5z"/></svg>
-          <span>
-            <span class="appstore__small">Coming soon to the</span>
-            <span class="appstore__big">App Store</span>
-          </span>
-        </span>
+        <a class="tf-badge" href="https://testflight.apple.com/join/wNNGBdE8" target="_blank" rel="noopener" aria-label="Join the beta on TestFlight">
+          <img src="/assets/img/badges/testflight.png" alt="Available on TestFlight" width="164" height="56">
+        </a>
         <a href="#features" class="btn-ghost">See what's inside →</a>
       </div>
-      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 17+</p>
+      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 26+</p>
     </div>
 
     <div class="reveal reveal--delay-1">
@@ -440,34 +436,6 @@
       </div>
     </div>
 
-    <div class="feature-row feature-row--reverse feature" data-tint="purple">
-      <div class="reveal">
-        <span class="feature__kicker"><span class="feature__kicker-dot"></span>For serious breeders</span>
-        <h2>A Breeder Toolkit, if you need one.</h2>
-        <p>
-          Turn on one toggle and the app grows a fifth tab: Litters, Heat Cycles, Breeding
-          Records, Health Clearances, Offspring tracking, Puppy/Kitten timelines. Designed
-          with the editorial calm of the rest of the app — no spreadsheets, no screaming
-          red tables. Off by default, because most people don't need it.
-        </p>
-        <ul class="feature__list">
-          <li>Heat cycle predictions and breeding windows</li>
-          <li>Per-offspring records with parents linked back</li>
-          <li>Clearances tagged with expiration and certifier</li>
-        </ul>
-      </div>
-      <div class="reveal reveal--delay-1">
-        <div class="phone" data-parallax>
-          <div class="phone__screen">
-            <picture>
-              <source srcset="/assets/img/screenshots/breeder-dark.webp" media="(prefers-color-scheme: dark)">
-              <img src="/assets/img/screenshots/breeder-light.webp" alt="Breeder Toolkit" loading="lazy">
-            </picture>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
 
@@ -586,7 +554,6 @@
         <p class="price__tag">Save 33% vs monthly. Unlocks everything.</p>
         <ul class="price__list">
           <li>Unlimited pets</li>
-          <li>Breeder Toolkit</li>
           <li>PDF export</li>
           <li>Premium app icons</li>
           <li>Ad-free</li>
@@ -638,7 +605,7 @@
         So I built MyPetLogger — for myself first, and for anyone who's ever stood at a
         vet's counter thumbing through a phone trying to find the exact word "Bordetella."
         It's SwiftUI top to bottom. It uses the Apple frameworks the way they want to be
-        used. It's translated into nine languages. It syncs through your iCloud, not ours.
+        used. It's translated into forty-one languages. It syncs through your iCloud, not ours.
         And it's free up to two pets — not as a trial, but as a permanent tier, because
         most households really do have one or two companions and they deserve a good home too.
       </p>
@@ -656,26 +623,57 @@
 <section class="tight">
   <div class="container">
     <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
-      <span class="eyebrow">Fourteen languages</span>
+      <span class="eyebrow">Forty-one languages</span>
       <h2>Translated with care.</h2>
       <p style="font-size: 1.05rem;">Every string, every form, every alert — not a machine-translated afterthought.</p>
     </div>
-    <div class="langs reveal">
+    <div class="langs reveal" id="langs">
       <span class="lang-chip">English</span>
-      <span class="lang-chip">English (UK)</span>
-      <span class="lang-chip">Español (LatAm)</span>
-      <span class="lang-chip">Español (España)</span>
+      <span class="lang-chip">Español</span>
       <span class="lang-chip">Français</span>
-      <span class="lang-chip">Italiano</span>
       <span class="lang-chip">Deutsch</span>
-      <span class="lang-chip">Nederlands</span>
+      <span class="lang-chip">Italiano</span>
       <span class="lang-chip">Português (BR)</span>
-      <span class="lang-chip">Português (PT)</span>
-      <span class="lang-chip">Русский</span>
       <span class="lang-chip">日本語</span>
       <span class="lang-chip">한국어</span>
       <span class="lang-chip">简体中文</span>
-      <span class="lang-chip">العربية</span>
+      <span class="lang-chip">Русский</span>
+      <span class="lang-chip lang-chip--more" hidden>English (UK)</span>
+      <span class="lang-chip lang-chip--more" hidden>English (AU)</span>
+      <span class="lang-chip lang-chip--more" hidden>English (CA)</span>
+      <span class="lang-chip lang-chip--more" hidden>Español (México)</span>
+      <span class="lang-chip lang-chip--more" hidden>Français (CA)</span>
+      <span class="lang-chip lang-chip--more" hidden>Português (PT)</span>
+      <span class="lang-chip lang-chip--more" hidden>繁體中文</span>
+      <span class="lang-chip lang-chip--more" hidden>العربية</span>
+      <span class="lang-chip lang-chip--more" hidden>Català</span>
+      <span class="lang-chip lang-chip--more" hidden>Čeština</span>
+      <span class="lang-chip lang-chip--more" hidden>Dansk</span>
+      <span class="lang-chip lang-chip--more" hidden>Ελληνικά</span>
+      <span class="lang-chip lang-chip--more" hidden>Suomi</span>
+      <span class="lang-chip lang-chip--more" hidden>עברית</span>
+      <span class="lang-chip lang-chip--more" hidden>हिन्दी</span>
+      <span class="lang-chip lang-chip--more" hidden>Hrvatski</span>
+      <span class="lang-chip lang-chip--more" hidden>Magyar</span>
+      <span class="lang-chip lang-chip--more" hidden>Bahasa Indonesia</span>
+      <span class="lang-chip lang-chip--more" hidden>Bahasa Melayu</span>
+      <span class="lang-chip lang-chip--more" hidden>Nederlands</span>
+      <span class="lang-chip lang-chip--more" hidden>Norsk</span>
+      <span class="lang-chip lang-chip--more" hidden>Polski</span>
+      <span class="lang-chip lang-chip--more" hidden>Română</span>
+      <span class="lang-chip lang-chip--more" hidden>Slovenčina</span>
+      <span class="lang-chip lang-chip--more" hidden>Slovenščina</span>
+      <span class="lang-chip lang-chip--more" hidden>Svenska</span>
+      <span class="lang-chip lang-chip--more" hidden>ไทย</span>
+      <span class="lang-chip lang-chip--more" hidden>Türkçe</span>
+      <span class="lang-chip lang-chip--more" hidden>Українська</span>
+      <span class="lang-chip lang-chip--more" hidden>اردو</span>
+      <span class="lang-chip lang-chip--more" hidden>Tiếng Việt</span>
+    </div>
+    <div class="langs-toggle reveal">
+      <button type="button" class="langs-toggle__btn" id="langs-toggle" aria-expanded="false" aria-controls="langs">
+        Show all 41 languages
+      </button>
     </div>
   </div>
 </section>
@@ -771,7 +769,7 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li><span style="opacity:0.6">App Store (coming soon)</span></li>
+          <li><a href="https://testflight.apple.com/join/wNNGBdE8" target="_blank" rel="noopener">TestFlight beta</a></li>
         </ul>
       </div>
       <div>

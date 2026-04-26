@@ -70,6 +70,20 @@
     });
   }
 
+  // Languages — show all toggle
+  const langsToggle = document.getElementById('langs-toggle');
+  const langsContainer = document.getElementById('langs');
+  if (langsToggle && langsContainer) {
+    const more = langsContainer.querySelectorAll('.lang-chip--more');
+    langsToggle.addEventListener('click', () => {
+      const expanded = langsToggle.getAttribute('aria-expanded') === 'true';
+      const next = !expanded;
+      more.forEach(el => { el.hidden = !next; });
+      langsToggle.setAttribute('aria-expanded', next ? 'true' : 'false');
+      langsToggle.textContent = next ? 'Show fewer languages' : 'Show all 41 languages';
+    });
+  }
+
   // Reveal on scroll
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (!reduce && 'IntersectionObserver' in window) {

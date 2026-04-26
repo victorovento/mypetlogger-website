@@ -132,7 +132,7 @@
         "@id": "https://mypetlogger.com/de/#app",
         "name": "MyPetLogger",
         "alternateName": "My Pet Logger",
-        "operatingSystem": "iOS 17+",
+        "operatingSystem": "iOS 26+",
         "applicationCategory": "LifestyleApplication",
         "applicationSubCategory": "Pet Care",
         "url": "https://mypetlogger.com/de/",
@@ -143,7 +143,7 @@
           "https://mypetlogger.com/assets/img/screenshots/walk-light.webp",
           "https://mypetlogger.com/assets/img/screenshots/map-light.webp"
         ],
-        "description": "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders, breeder tools. Private by design.",
+        "description": "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design.",
         "inLanguage": ["en", "en-GB", "es", "es-ES", "fr", "it", "de", "nl", "pt-BR", "pt-PT", "ru", "ja", "ko", "zh-Hans", "ar"],
         "contentRating": "9+",
         "author": { "@id": "https://lcvsystems.com/#organization" },
@@ -226,7 +226,7 @@
         <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         <svg class="theme-toggle__sun"  viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2v3m0-20v3m9 9h3M0 12h3m15.36 6.36 2.12 2.12M3.52 3.52l2.12 2.12m12.72 0 2.12-2.12M3.52 20.48l2.12-2.12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
       </button>
-      <span class="nav__cta is-disabled" aria-disabled="true">Bald verfügbar</span>
+      <a class="nav__cta" href="https://testflight.apple.com/join/wNNGBdE8" target="_blank" rel="noopener">Beta beitreten</a>
     </div>
   </div>
 </nav>
@@ -249,16 +249,12 @@
         Keine Konten. Kein Tracking. Kein Lärm.
       </p>
       <div class="hero__ctas">
-        <span class="appstore is-disabled" role="button" aria-disabled="true" aria-label="Bald verfügbar to the App Store">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.02-2.76 2.25-4.08 2.35-4.15-1.28-1.87-3.27-2.13-3.97-2.16-1.69-.17-3.3 1-4.15 1-.86 0-2.18-.97-3.58-.94-1.84.03-3.54 1.07-4.49 2.72-1.91 3.32-.49 8.23 1.37 10.93.91 1.32 2 2.81 3.4 2.76 1.36-.06 1.88-.89 3.53-.89 1.65 0 2.11.89 3.56.86 1.47-.02 2.4-1.34 3.3-2.67 1.04-1.53 1.47-3.02 1.49-3.1-.03-.01-2.84-1.09-2.86-4.36zM14.5 4.07c.75-.92 1.26-2.19 1.12-3.46-1.08.04-2.4.72-3.19 1.62-.7.8-1.32 2.1-1.16 3.34 1.21.09 2.45-.61 3.23-1.5z"/></svg>
-          <span>
-            <span class="appstore__small">Bald verfügbar to the</span>
-            <span class="appstore__big">App Store</span>
-          </span>
-        </span>
+        <a class="tf-badge" href="https://testflight.apple.com/join/wNNGBdE8" target="_blank" rel="noopener" aria-label="Beta beitreten via TestFlight">
+          <img src="/assets/img/badges/testflight.png" alt="Verfügbar bei TestFlight" width="164" height="56">
+        </a>
         <a href="#features" class="btn-ghost">Sieh, was drinsteckt →</a>
       </div>
-      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 17+</p>
+      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 26+</p>
     </div>
 
     <div class="reveal reveal--delay-1">
@@ -439,34 +435,6 @@
       </div>
     </div>
 
-    <div class="feature-row feature-row--reverse feature" data-tint="purple">
-      <div class="reveal">
-        <span class="feature__kicker"><span class="feature__kicker-dot"></span>Für ernsthafte Züchter</span>
-        <h2>Ein Züchter-Toolkit, falls du eines brauchst.</h2>
-        <p>
-          Schalte einen Schalter um und der App wächst ein fünfter Tab: Würfe, Läufigkeitszyklen, Zucht-
-          Aufzeichnungen, Gesundheitszeugnisse, Nachzucht-Tracking, Welpen-/Kätzchen-Zeitleisten. Entworfen
-          mit der redaktionellen Ruhe des Rests der App — keine Tabellen, keine schreienden
-          roten Listen. Standardmäßig aus, weil die meisten es nicht brauchen.
-        </p>
-        <ul class="feature__list">
-          <li>Vorhersagen für Läufigkeitszyklen und Zuchtfenster</li>
-          <li>Aufzeichnungen pro Nachkomme mit verlinkten Elterntieren</li>
-          <li>Zeugnisse mit Ablaufdatum und Aussteller versehen</li>
-        </ul>
-      </div>
-      <div class="reveal reveal--delay-1">
-        <div class="phone" data-parallax>
-          <div class="phone__screen">
-            <picture>
-              <source srcset="/assets/img/screenshots/breeder-dark.webp" media="(prefers-color-scheme: dark)">
-              <img src="/assets/img/screenshots/breeder-light.webp" alt="Züchter-Toolkit" loading="lazy">
-            </picture>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
 
@@ -585,7 +553,6 @@
         <p class="price__tag">Spare 33 % gegenüber monatlich. Schaltet alles frei.</p>
         <ul class="price__list">
           <li>Unbegrenzte Tiere</li>
-          <li>Züchter-Toolkit</li>
           <li>PDF-Export</li>
           <li>Premium-App-Icons</li>
           <li>Werbefrei</li>
@@ -770,7 +737,7 @@
           <li><a href="#features">Funktionen</a></li>
           <li><a href="#pricing">Preise</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li><span style="opacity:0.6">App Store (bald verfügbar)</span></li>
+          <li><a href="https://testflight.apple.com/join/wNNGBdE8" target="_blank" rel="noopener">TestFlight-Beta</a></li>
         </ul>
       </div>
       <div>

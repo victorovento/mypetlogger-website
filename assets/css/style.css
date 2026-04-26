@@ -364,6 +364,16 @@ section.tight { padding: 64px 0; }
 }
 .nav__cta.is-disabled:hover { transform: none; box-shadow: none; }
 
+/* ============ TestFlight badge ============ */
+.tf-badge {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.tf-badge img { display: block; height: 56px; width: auto; border-radius: 12px; }
+.tf-badge:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 8px;
   padding: 13px 20px;
@@ -718,6 +728,22 @@ section.tight { padding: 64px 0; }
   transition: transform 0.2s, border-color 0.2s, color 0.2s;
 }
 .lang-chip:hover { transform: translateY(-2px); border-color: var(--accent); color: var(--text); }
+
+.langs-toggle { display: flex; justify-content: center; margin-top: 24px; }
+.langs-toggle__btn {
+  appearance: none;
+  background: transparent;
+  border: 1.5px solid var(--border);
+  color: var(--text-dim);
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 10px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s, color 0.2s, background 0.2s;
+}
+.langs-toggle__btn:hover { transform: translateY(-2px); border-color: var(--accent); color: var(--text); }
 
 /* ============ FAQ ============ */
 .faq { max-width: 820px; margin: 48px auto 0; }
