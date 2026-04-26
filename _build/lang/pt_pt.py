@@ -9,8 +9,8 @@ LABEL = "Português (PT)"
 _PORTUGAL_OVERRIDES = {
     "MyPetLogger — The pet journal you'll actually keep":
         "MyPetLogger — O diário do seu animal que vai mesmo manter",
-    "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders, breeder tools. Private by design, no accounts, no tracking.":
-        "Uma bonita aplicação iOS nativa para todo o tipo de animal — cães, gatos, aves, coelhos, furões e mais. Registos médicos, passeios, lembretes, ferramentas para criadores. Privada por design, sem contas, sem rastreio.",
+    "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design, no accounts, no tracking.":
+        "Uma bonita aplicação iOS nativa para todo o tipo de animal — cães, gatos, aves, coelhos, furões e mais. Registos médicos, passeios, lembretes. Privada por design, sem contas, sem rastreio.",
     "A beautifully native iOS app for every moment of your pet's life. Private by design.":
         "Uma bonita aplicação iOS nativa para cada momento da vida do seu animal. Privada por design.",
     "The pet journal<br>you'll <em>actually</em> keep.":
