@@ -364,15 +364,14 @@ section.tight { padding: 64px 0; }
 }
 .nav__cta.is-disabled:hover { transform: none; box-shadow: none; }
 
-/* ============ TestFlight badge ============ */
-.tf-badge {
+/* ============ App Store badge ============ */
+.appstore-badge {
   display: inline-block;
   line-height: 0;
-  border-radius: 12px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s;
 }
-.tf-badge img { display: block; height: 56px; width: auto; border-radius: 12px; }
-.tf-badge:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.appstore-badge img { display: block; height: 56px; width: auto; }
+.appstore-badge:hover { transform: translateY(-2px); }
 
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 8px;
