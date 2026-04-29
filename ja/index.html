@@ -169,21 +169,21 @@
         "@id": "https://mypetlogger.com/ja/#faq",
         "mainEntity": [
           { "@type": "Question", "name": "どのペットに対応していますか?",
-            "acceptedAnswer": { "@type": "Answer", "text": "All of them. Dogs and cats are first-class citizens, but the species picker also covers birds, rabbits, ferrets, hamsters, guinea pigs, reptiles, fish, and a free-text fallback for anything truly unusual." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "すべての種類です。犬と猫はもちろん主役ですが、種類のピッカーには鳥、ウサギ、フェレット、ハムスター、モルモット、爬虫類、魚も含まれ、本当に珍しいペットには自由入力欄も用意しています。" } },
           { "@type": "Question", "name": "Android 版はありますか?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Not today. MyPetLogger is built in SwiftUI to feel deeply native on Apple's platforms." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "現時点ではありません。MyPetLoggerはSwiftUIで作られていて、Appleのプラットフォームに深く馴染むよう設計されています。" } },
           { "@type": "Question", "name": "アカウントは必要ですか?",
-            "acceptedAnswer": { "@type": "Answer", "text": "No. There's no sign-up, no email, no password. Open the app and start. iCloud 同期 uses your own Apple ID." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "必要ありません。サインアップも、メールも、パスワードもなし。アプリを開けばすぐに始められます。iCloud 同期はあなたご自身の Apple ID で行われます。" } },
           { "@type": "Question", "name": "あなたは私について何を知っていますか?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Almost nothing. We have no database of users, no list of pet names, no way to contact you unless you email us first." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "ほとんど何も。ユーザーのデータベースも、ペットの名前のリストもなく、お客様から先にご連絡をいただかない限り、こちらから連絡する手段もありません。" } },
           { "@type": "Question", "name": "データをエクスポートできますか?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Premium unlocks full PDF エクスポート per pet. Data lives in Core Data on-device — you're never locked in." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。Premium ではペットごとの完全な PDF エクスポートが使えます。データ自体は端末内の Core Data に保存されているので、どこかに閉じ込められる心配はありません。" } },
           { "@type": "Question", "name": "プレミアムを解約するとどうなりますか?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Your data is yours forever. Existing pets above the two-pet limit remain visible and editable." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "データはずっとあなたのものです。2匹の上限を超えた既存のペットも引き続き表示・編集できます。" } },
           { "@type": "Question", "name": "広告は使っていますか?",
             "acceptedAnswer": { "@type": "Answer", "text": "無料 users see occasional banners and an interstitial after every third log entry. Paid users see zero ads, ever." } },
           { "@type": "Question", "name": "iPad で動きますか?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. iPad gets the same tab bar as iPhone via SwiftUI's sidebar-adaptable TabView." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。SwiftUIのサイドバー対応TabViewのおかげで、iPadでもiPhoneと同じタブバーが使えます。" } },
           { "@type": "Question", "name": "Web アプリはありますか?",
             "acceptedAnswer": { "@type": "Answer", "text": "No. \"Web app\" means data on our servers, and our data is on your phone." } }
         ]
@@ -300,11 +300,10 @@
         <span class="feature__kicker"><span class="feature__kicker-dot"></span>すべての家族を一つの場所に</span>
         <h2>家族のすべてのペットを、美しく整理。</h2>
         <p>
-          Dogs. Cats. Birds. Rabbits, hamsters, ferrets, guinea pigs — the whole small-animal
-          lineup. Each pet gets a rich profile: species, breed, colors, markings, microchip,
-          sex, date of birth, photo, notes. The picker knows 100+ dog breeds, 40+ cat breeds,
-          34 bird species and 44 small-animal breeds — with species-specific colors and a
-          custom-entry fallback for the truly unique.
+          犬。猫。鳥。ウサギ、ハムスター、フェレット、モルモット — 小動物のすべてが揃っています。
+          ペットごとに、種類、品種、カラー、模様、マイクロチップ、性別、誕生日、写真、メモを含む詳細なプロフィールを作成できます。
+          ピッカーには、犬種 100 以上、猫種 40 以上、鳥類 34 種、小動物 44 品種を収録し、種ごとの色彩リストと、
+          本当に珍しいペットのための自由入力欄も用意しています。
         </p>
         <ul class="feature__list">
           <li>ピン留めされたペットはすべての画面で最初に表示</li>
@@ -329,10 +328,10 @@
         <span class="feature__kicker"><span class="feature__kicker-dot"></span>靴箱ではなく、カルテ</span>
         <h2>もう散らばらない医療記録。</h2>
         <p>
-          Weight, vaccinations, medications, vet visits, grooming, surgery, allergies,
-          deworming, flea treatment — MyPetLogger gives each its own form, its own list,
-          and its own "next due" countdown. No more hunting paper, no more screenshots
-          buried in your camera roll, no more "wait, when was her last rabies shot?"
+          体重、ワクチン、投薬、動物病院での記録、トリミング、手術、アレルギー、駆虫、ノミ予防 —
+          MyPetLogger ではそれぞれに専用のフォームとリストを用意し、「次回予定」までのカウントダウンも個別に表示します。
+          書類を探し回る必要も、カメラロールに埋もれたスクリーンショットを探す必要も、
+          「あれ、最後の狂犬病ワクチンっていつだっけ?」と聞き直す必要も、もうありません。
         </p>
         <ul class="feature__list">
           <li>サマリータブで次回予定日と期限切れアラート</li>
@@ -358,11 +357,9 @@
         <span class="feature__kicker"><span class="feature__kicker-dot"></span>散歩に行く</span>
         <h2>ネイティブな方法での散歩トラッキング。</h2>
         <p>
-          Pick the pets you're walking with. Choose a distance goal, a time goal, or just
-          set out free. The Live Activity rides on your Lock Screen and in the Dynamic
-          Island, the route draws itself across a MapKit trail, and when you finish,
-          the workout goes straight to Apple Health — with every pet's name attached as
-          workout metadata.
+          一緒に散歩するペットを選びます。距離の目標、時間の目標、あるいは目標なしで自由に出発するか、お好きな方を。
+          ライブアクティビティはロック画面と Dynamic Island で動き、ルートは MapKit のマップ上に自動で描かれ、散歩を終えると
+          ワークアウトはそのまま Apple ヘルスケアへ送られます — それぞれのペットの名前がワークアウトのメタデータとして添えられます。
         </p>
         <ul class="feature__list">
           <li>経過時間と進捗を表示する Live Activity と Dynamic Island</li>
@@ -388,11 +385,10 @@
         <span class="feature__kicker"><span class="feature__kicker-dot"></span>一日をひと目で</span>
         <h2>本当に役立つサマリー画面。</h2>
         <p>
-          Open the app and see it all — a time-aware greeting, the count of overdue items,
-          what's coming up in the next 30 days across every pet, and your recent activity
-          log. Quick Actions sit a tap away: log a weight, record a dose, start a vet
-          visit, add a vaccination, begin a walk. Same actions live in the Home Screen
-          widget, on your Apple Watch, and in Siri.
+          アプリを開けば、一目ですべてが見えます — 時間に合わせた挨拶、期限切れの件数、今後 30 日間に
+          すべてのペットで予定されていること、そして最近の記録ログ。クイックアクションは指一本の距離にあります —
+          体重を記録、投薬を記録、動物病院での記録を開始、ワクチンを追加、散歩を開始。同じアクションは、
+          ホーム画面のウィジェット、Apple Watch、Siri からも使えます。
         </p>
         <ul class="feature__list">
           <li>期限切れバナーで忘れない</li>
@@ -418,12 +414,10 @@
         <span class="feature__kicker"><span class="feature__kicker-dot"></span>緊急時に必要な地図</span>
         <h2>近くの動物病院、公園、スパ — 11 のカテゴリー、1 つの検索。</h2>
         <p>
-          A single glass-bar search that accepts cities, addresses, and zip codes from
-          anywhere in the world. Eleven categories — Vet Clinics, Emergency Vets, Pet
-          Stores, Pet Spas, Pet Training, Hotels that welcome pets, Dog Parks, Off-leash
-          Areas, Shelters, and more. Directions open in your preferred maps app — Apple
-          Maps, Google Maps, or Waze. Call, text, or visit a website straight from the
-          location card.
+          世界のどこの都市・住所・郵便番号でも入力できる、ガラス調の検索バーが一つ。
+          カテゴリは 11 種類 — 動物病院、救急動物病院、ペットショップ、ペットスパ、しつけ教室、ペット可ホテル、
+          ドッグラン、ノーリードエリア、シェルターなど。ナビは、Apple マップ、Google マップ、Waze など、
+          お好みの地図アプリで開きます。電話、メッセージ、ウェブサイトの確認はすべて、施設カードから直接できます。
         </p>
         <ul class="feature__list">
           <li>MKLocalSearchCompleter によるライブオートコンプリート</li>
@@ -452,30 +446,28 @@
     <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
       <span class="eyebrow">深くネイティブ</span>
       <h2>Apple のあらゆる表面を、正しい方法で使う。</h2>
-      <p style="font-size: 1.1rem;">We didn't port a cross-platform framework. We built MyPetLogger as a SwiftUI app
-      for the Apple ecosystem, and we used every corner of it.</p>
+      <p style="font-size: 1.1rem;">私たちはクロスプラットフォームのフレームワークを移植したわけではありません。Apple のエコシステムのために
+      SwiftUI で MyPetLogger を一から作り、その隅々まで使い切りました。</p>
     </div>
     <div class="triad">
       <div class="triad__card reveal">
         <div class="triad__icon">⌚</div>
         <h3>Apple Watch</h3>
-        <p>A watchOS companion with per-pet glance cards for your next vaccine and next dose,
-          a Digital-Crown weight dial, one-tap dose logging, and two complications for every
-          accessory family. Syncs over WatchConnectivity, one-way-read, one-way-write.</p>
+        <p>ペットごとに次のワクチンや次の投薬をひと目で見られるグランスカード、Digital Crown で操作する体重ダイヤル、
+          ワンタップでの投薬記録、すべてのアクセサリーファミリーに対応した 2 つのコンプリケーションを備えた watchOS 版コンパニオン。
+          同期は WatchConnectivity を使い、読み込みは一方向、書き込みも一方向で行います。</p>
       </div>
       <div class="triad__card reveal reveal--delay-1">
         <div class="triad__icon">▣</div>
         <h3>ウィジェットと Dynamic Island</h3>
-        <p>Home Screen Quick Actions widget deep-links into the exact same sheets the
-          サマリータブ opens. The Walks Live Activity renders a full Dynamic Island — compact,
-          expanded, minimal — with elapsed time, distance, and a progress bar.</p>
+        <p>ホーム画面のクイックアクション・ウィジェットは、概要タブが開くシートとまったく同じシートを直接開きます。お散歩のライブアクティビティは Dynamic Island をフルに使い、コンパクト・展開・最小化のすべての状態で経過時間、距離、進捗バーを表示します。</p>
       </div>
       <div class="triad__card reveal reveal--delay-2">
         <div class="triad__icon">◎</div>
         <h3>Siri とショートカット</h3>
-        <p>Five App Intents — Log Weight, Log Medication, New Vet Visit, Add Vaccination,
-          Start Walk — each accepting an optional pet parameter. Build automations, trigger
-          from Focus modes, or just say it out loud.</p>
+        <p>App Intents は 5 つ — 体重を記録、投薬を記録、新しい動物病院での記録、ワクチンを追加、散歩を開始 —
+          それぞれにペットを指定するオプションのパラメーターを用意しています。オートメーションに組み込んだり、
+          集中モードから呼び出したり、声に出して頼んだりできます。</p>
       </div>
     </div>
   </div>
@@ -493,10 +485,10 @@
       <span class="eyebrow">プライバシーの誓い</span>
       <h2>あなたのペットの人生は、私たちには関係ありません。</h2>
       <p class="pledge__quote">
-        "We never wanted to build a company that sold data about pets. So we didn't.
-        MyPetLogger has no accounts, no servers of ours, no analytics looking over your shoulder.
-        Your pet's records live on your iPhone, and if you turn on iCloud, they live in your
-        own private iCloud. That's the whole story."
+        「私たちは、ペットに関するデータを売るような会社を作りたいと思ったことは一度もありません。だから、作りませんでした。
+        MyPetLogger にはアカウントも、私たちのサーバーも、肩越しに覗き込むアナリティクスもありません。
+        ペットの記録はあなたの iPhone の中で生きていて、iCloud をオンにすれば、あなただけのプライベートな iCloud の中で生きていきます。
+        話としては、それで全部です。」
       </p>
       <div class="pledge__points">
         <div class="pledge__point">
@@ -543,11 +535,11 @@
       </div>
 
       <div class="price reveal reveal--delay-1">
-        <div class="price__tier">Ad-無料</div>
+        <div class="price__tier">広告なし</div>
         <div class="price__amount">$9.99<small> / 年</small></div>
         <p class="price__tag">広告を削除するだけ。他は何も変わりません。</p>
         <ul class="price__list">
-          <li>Everything in 無料</li>
+          <li>無料プランのすべて</li>
           <li>どこにも広告なし</li>
           <li class="dim">無制限のペット</li>
           <li class="dim">PDF エクスポート</li>
@@ -595,30 +587,27 @@
     </div>
     <div class="founder reveal">
       <p>
-        I had been meaning to organize my dogs' vaccination cards for about three years.
-        The paperwork lived in a folder on my desk, a second folder in a drawer, a Google Drive
-        with conflicting filenames, three notes on my phone, and my memory — which was
-        the least reliable archive of the five. Every time I went to the vet, I re-discovered
-        the same facts, printed the same printouts, and re-wrote the same dates on the same
-        forms.
+        うちの犬たちのワクチン接種証明書を整理しようと、ずっと思いながら三年ほどが過ぎていました。
+        書類は机の上のフォルダにも、引き出しの二つ目のフォルダにも、ファイル名がバラバラの Google Drive にも、
+        スマホの三つのメモにも、そして自分の記憶にも散らばっていて — 五つの中で記憶が一番あてにならない記録庫でした。
+        動物病院に行くたびに、同じ事実を発見し直し、同じ書類を印刷し、同じ日付を同じ用紙に書き直していました。
       </p>
       <p>
-        The apps I found either wanted me to make an account, or wanted to show me ads for
-        kibble, or wanted to sell me a subscription for a feature that should have been
-        basic. None of them felt like the kind of thing you'd open on a quiet Sunday and
-        be glad to sit with for ten minutes.
+        見つけたアプリはどれも、アカウント登録を求めてきたり、ドッグフードの広告を見せてきたり、
+        本来基本機能であるべきものをサブスクで売りつけてきたりするものばかり。
+        静かな日曜日に開いて十分間いっしょに過ごしたい、と思えるようなアプリは一つもありませんでした。
       </p>
       <p>
-        So I built MyPetLogger — for myself first, and for anyone who's ever stood at a
-        vet's counter thumbing through a phone trying to find the exact word "Bordetella."
-        It's SwiftUI top to bottom. It uses the Apple frameworks the way they want to be
-        used. It's translated into nine languages. It syncs through your iCloud, not ours.
-        And it's free up to two pets — not as a trial, but as a permanent tier, because
-        most households really do have one or two companions and they deserve a good home too.
+        だから自分で MyPetLogger を作りました — まず自分のために、そして動物病院のカウンターで
+        「Bordetella」という言葉を探して、スマホの中をスクロールしたことのあるすべての人のために。
+        全面的に SwiftUI で作られていて、Apple のフレームワークを本来あるべき形で使っています。
+        41 の言語に翻訳されており、同期はあなたの iCloud を通じて行われ、こちらの iCloud は経由しません。
+        そしてペット2匹までは無料 — お試しではなく恒久的なプランとしてです。なぜなら、ほとんどのご家庭には
+        本当にペットが1〜2匹いて、その子たちにもふさわしい居場所があるべきだからです。
       </p>
       <p>
-        If you try it and it feels right, send a note. If it feels wrong, send a louder one.
-        This app gets better because people tell me what they need.
+        試してみて気に入ったら、メッセージを送ってください。気に入らなかったら、もっと強い言葉で送ってください。
+        このアプリは、必要なものを教えてくれる人がいるからこそ、よくなっていきます。
       </p>
       <p class="founder__sig">— Victor, LC&amp;V Systems</p>
     </div>
@@ -630,7 +619,7 @@
 <section class="tight">
   <div class="container">
     <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
-      <span class="eyebrow">Fourteen languages</span>
+      <span class="eyebrow">15の言語</span>
       <h2>丁寧に翻訳。</h2>
       <p style="font-size: 1.05rem;">すべての文字列、すべてのフォーム、すべてのアラート — 後付けの機械翻訳ではありません。</p>
     </div>
@@ -660,23 +649,23 @@
     <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
       <span class="eyebrow">常にリリース中</span>
       <h2>最近の新機能。</h2>
-      <p style="font-size: 1.05rem;">A small sample from the changelog. The full log lives inside the app, under Settings → What's New.</p>
+      <p style="font-size: 1.05rem;">変更履歴の一部です。すべての履歴はアプリ内の「設定 → 新着情報」でご覧いただけます。</p>
     </div>
     <div class="changelog">
       <div class="changelog__entry reveal">
         <div class="changelog__date">最新</div>
-        <div class="changelog__title">散歩トラッキング with Live Activity &amp; Dynamic Island</div>
-        <p class="changelog__desc">A brand-new walk workflow — distance goals, time goals, Apple Health sync, Siri Shortcut to start a walk, and a full Dynamic Island expansion.</p>
+        <div class="changelog__title">散歩トラッキング、ライブアクティビティと Dynamic Island に対応</div>
+        <p class="changelog__desc">まったく新しいお散歩フロー — 距離目標、時間目標、Apple ヘルスケアとの同期、散歩を開始する Siri ショートカット、Dynamic Island のフル展開に対応。</p>
       </div>
       <div class="changelog__entry reveal">
         <div class="changelog__date">最近</div>
-        <div class="changelog__title">Settings overhaul &amp; iCloud 同期 controls</div>
-        <p class="changelog__desc">HealthKit is now opt-in on first walk. iCloud 同期 has its own section with Sync Now, Last Sync, and a Delete Cloud Data button.</p>
+        <div class="changelog__title">設定画面の刷新と iCloud 同期コントロール</div>
+        <p class="changelog__desc">HealthKit は最初の散歩でオプトイン形式に。iCloud 同期には専用のセクションができ、「今すぐ同期」「最終同期」「クラウドデータを削除」ボタンを用意しました。</p>
       </div>
       <div class="changelog__entry reveal">
         <div class="changelog__date">最近</div>
         <div class="changelog__title">Apple Watch companion + complications</div>
-        <p class="changelog__desc">watchOS glance, Digital Crown weight dial, one-tap dose logging, and two complications for every accessory family.</p>
+        <p class="changelog__desc">watchOS のグランス、Digital Crown による体重ダイヤル、ワンタップの投薬記録、すべてのアクセサリーファミリーに対応した 2 つのコンプリケーション。</p>
       </div>
     </div>
   </div>
@@ -690,15 +679,9 @@
       <h2>質問にお答えします。</h2>
     </div>
     <div class="faq">
-      <details class="faq__item reveal"><summary class="faq__q">どのペットに対応していますか?</summary><div class="faq__a">All of them. Dogs and cats are first-class citizens, but the species picker also covers birds, rabbits, ferrets, hamsters, guinea pigs, reptiles, fish, and a free-text fallback for anything truly unusual. Each species gets its own breed list, color palette, and icon — and every pet, regardless of species, gets the full medical timeline, reminders, and quick actions.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">Android 版はありますか?</summary><div class="faq__a">Not today. MyPetLogger is built in SwiftUI to feel deeply native on Apple's platforms — Live Activities, Dynamic Island, Siri Intents, HealthKit, WatchConnectivity. We'd rather do one platform well than two platforms badly.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">アカウントは必要ですか?</summary><div class="faq__a">No. There's no sign-up, no email, no password. Open the app and start. If you turn on iCloud 同期, your records move between your own devices through your own Apple ID — never through us.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">あなたは私について何を知っていますか?</summary><div class="faq__a">Almost nothing. We can see anonymous crash reports if you've opted into Apple's analytics, and we see aggregate download counts from the App Store. We have no database of users, no list of pet names, no way to contact you unless you email us first.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">データをエクスポートできますか?</summary><div class="faq__a">Yes. Premium unlocks full PDF エクスポート per pet — perfect for a new vet, an insurance claim, or just a keepsake. The data itself lives in Core Data on-device, so you're never locked in.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">プレミアムを解約するとどうなりますか?</summary><div class="faq__a">Your data is yours forever. If you drop back to the 無料 tier, existing pets above the two-pet limit remain visible and editable, but you'll need to remove one before adding a new one.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">広告は使っていますか?</summary><div class="faq__a">無料 users see occasional banners and an interstitial after every third log entry. Paid users — Ad-無料, Premium, 永久 — see zero ads, ever. Ads never appear inside log forms or on the Map tab.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">iPad で動きますか?</summary><div class="faq__a">Yes. iPad gets the same tab bar as iPhone via SwiftUI's sidebar-adaptable TabView, so every screen is reachable and the layout expands gracefully.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">Web アプリはありますか?</summary><div class="faq__a">No, and there won't be. "Web app" means "data on our servers," and our data is on your phone. If we ever made one, this page would be different.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">どのペットに対応していますか?</summary><div class="faq__a">無料プランのユーザーには、たまにバナー広告と、3回ごとの記録時にインタースティシャル広告が表示されます。有料プラン（広告なし、Premium、永久）では一切広告は表示されません。記録フォーム内やマップタブには広告が一切出ません。</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">iPad で動きますか?</summary><div class="faq__a">はい。SwiftUIのサイドバー対応TabViewのおかげで、iPadでもiPhoneと同じタブバーが使えます。すべての画面にアクセスでき、レイアウトもゆったりと広がります。</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Web アプリはありますか?</summary><div class="faq__a">ありません。今後も作る予定はありません。「Web アプリ」とは「データがサーバー側にある」ということで、当アプリのデータはお客様の端末上にあります。もし作ることがあれば、このページは違う内容になっているはずです。</div></details>
     </div>
   </div>
 </section>
@@ -713,13 +696,13 @@
     <div class="press">
       <div class="press__card reveal">
         <h3>プレスキット</h3>
-        <p>Writing about MyPetLogger? We'd love to help. Email us for app icons, screenshots, device mockups, founder headshots, and review codes.</p>
-        <p><a href="mailto:support@mypetlogger.com?subject=プレス%20inquiry">support@mypetlogger.com</a></p>
+        <p>MyPetLogger について記事を書かれますか? ぜひお手伝いさせてください。アプリアイコン、スクリーンショット、端末モックアップ、創業者の写真、レビュー用コードはメールでお気軽にどうぞ。</p>
+        <p><a href="mailto:support@mypetlogger.com?subject=プレスのお問い合わせ">support@mypetlogger.com</a></p>
       </div>
       <div class="press__card reveal reveal--delay-1">
         <h3>サポート</h3>
-        <p>Something broken? Idea for a feature? Need a hand exporting your data? Real humans read every email.</p>
-        <p><a href="/support/">Visit the support page</a> &middot; <a href="mailto:support@mypetlogger.com">support@mypetlogger.com</a></p>
+        <p>なにか不具合がありますか? 新しい機能のアイデアがありますか? データのエクスポートで困っていますか? すべてのメールには、生身の人間が目を通しています。</p>
+        <p><a href="/support/">サポートページを見る</a> &middot; <a href="mailto:support@mypetlogger.com">support@mypetlogger.com</a></p>
       </div>
     </div>
   </div>
