@@ -101,6 +101,63 @@
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
   }
 
+  // Platform pricing toggle
+  const pricingToggle = document.querySelector('.platform-toggle');
+  if (pricingToggle) {
+    const iosGrid    = document.getElementById('pricing-ios');
+    const androidGrid = document.getElementById('pricing-android');
+    const iosNote    = document.getElementById('pricing-note-ios');
+    const androidNote = document.getElementById('pricing-note-android');
+    const iosIntro   = document.getElementById('pricing-intro-ios');
+    const androidIntro = document.getElementById('pricing-intro-android');
+
+    let panelReady = false;
+
+    const animateIn = (el) => {
+      if (!el) return;
+      el.classList.remove('pricing-panel--in');
+      // Force reflow so removing then re-adding the class restarts the animation
+      void el.offsetWidth;
+      el.classList.add('pricing-panel--in');
+      el.addEventListener('animationend', () => el.classList.remove('pricing-panel--in'), { once: true });
+    };
+
+    const setPanel = (platform) => {
+      const android = platform === 'android';
+
+      if (iosGrid) {
+        iosGrid.hidden = android;
+        if (!android) {
+          iosGrid.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
+          if (panelReady) animateIn(iosGrid);
+        }
+      }
+      if (iosNote)      iosNote.hidden      = android;
+      if (iosIntro)     iosIntro.hidden     = android;
+      if (androidGrid) {
+        androidGrid.hidden = !android;
+        if (android && panelReady) animateIn(androidGrid);
+      }
+      if (androidNote)  androidNote.hidden  = !android;
+      if (androidIntro) androidIntro.hidden = !android;
+
+      pricingToggle.querySelectorAll('.platform-toggle__btn').forEach(btn => {
+        const active = btn.dataset.platform === platform;
+        btn.classList.toggle('is-active', active);
+        btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+
+      panelReady = true;
+    };
+
+    const isAndroid = /android/i.test(navigator.userAgent);
+    setPanel(isAndroid ? 'android' : 'ios');
+
+    pricingToggle.querySelectorAll('.platform-toggle__btn').forEach(btn => {
+      btn.addEventListener('click', () => setPanel(btn.dataset.platform));
+    });
+  }
+
   // Parallax + tilt — skip on touch devices and any narrow viewport.
   const coarse = window.matchMedia('(pointer: coarse)').matches;
   const narrow = window.matchMedia('(max-width: 860px)').matches;

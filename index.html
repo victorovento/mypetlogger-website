@@ -12,7 +12,7 @@
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MyPetLogger — The pet journal you'll actually keep</title>
-  <meta name="description" content="A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design, no accounts, no tracking.">
+  <meta name="description" content="A beautifully private app for every kind of pet — iOS &amp; Android. Medical records, walks, reminders. No accounts, no tracking.">
   <meta name="keywords" content="pet app, pet journal, pet medical records, vaccination tracker, dog walk tracker, cat health log, vet visit reminder, pet care app, iOS pet app, private pet log">
   <meta name="author" content="LC&amp;V Systems LLC">
   <meta name="publisher" content="LC&amp;V Systems LLC">
@@ -141,7 +141,7 @@
         "@id": "https://mypetlogger.com/#app",
         "name": "MyPetLogger",
         "alternateName": "My Pet Logger",
-        "operatingSystem": "iOS 26+",
+        "operatingSystem": "iOS 26+, Android 10+",
         "applicationCategory": "LifestyleApplication",
         "applicationSubCategory": "Pet Care",
         "url": "https://mypetlogger.com/",
@@ -152,7 +152,7 @@
           "https://mypetlogger.com/assets/img/screenshots/walk-light.webp",
           "https://mypetlogger.com/assets/img/screenshots/map-light.webp"
         ],
-        "description": "A beautifully native iOS app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Private by design.",
+        "description": "A beautifully private app for every kind of pet — dogs, cats, birds, rabbits, ferrets, and more. Medical records, walks, reminders. Available on iOS; coming soon to Android.",
         "inLanguage": ["en", "en-GB", "es", "es-ES", "fr", "it", "de", "nl", "pt-BR", "pt-PT", "ru", "ja", "ko", "zh-Hans", "ar"],
         "contentRating": "9+",
         "author": { "@id": "https://lcvsystems.com/#organization" },
@@ -162,7 +162,9 @@
           { "@type": "Offer", "name": "Ad-Free (Yearly)", "price": "9.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
           { "@type": "Offer", "name": "Premium Monthly", "price": "4.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
           { "@type": "Offer", "name": "Premium Annual", "price": "39.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "name": "Lifetime", "price": "49.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" }
+          { "@type": "Offer", "name": "Lifetime", "price": "49.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+          { "@type": "Offer", "name": "Ad-Free Monthly (Android)", "price": "3.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder" },
+          { "@type": "Offer", "name": "Ad-Free Lifetime (Android)", "price": "49.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder" }
         ]
       },
       {
@@ -172,7 +174,7 @@
           { "@type": "Question", "name": "Which pets does it support?",
             "acceptedAnswer": { "@type": "Answer", "text": "All of them. Dogs and cats are first-class citizens, but the species picker also covers birds, rabbits, ferrets, hamsters, guinea pigs, reptiles, fish, and a free-text fallback for anything truly unusual." } },
           { "@type": "Question", "name": "Is there an Android version?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Not today. MyPetLogger is built in SwiftUI to feel deeply native on Apple's platforms." } },
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes — coming soon to Google Play. On Android the full app is free with unlimited pets. The only paid option removes ads: $3.99\/month or $49.99 one-time." } },
           { "@type": "Question", "name": "Do I need an account?",
             "acceptedAnswer": { "@type": "Answer", "text": "No. There's no sign-up, no email, no password. Open the app and start. iCloud sync uses your own Apple ID." } },
           { "@type": "Question", "name": "What do you actually know about me?",
@@ -252,18 +254,25 @@
       <span class="eyebrow">A love letter to your pet</span>
       <h1 class="hero__title">The pet journal<br>you'll <em>actually</em> keep.</h1>
       <p class="hero__lede">
-        MyPetLogger is the iOS app for every companion in your home — dogs, cats, birds, rabbits,
+        MyPetLogger is the app for every companion in your home — dogs, cats, birds, rabbits,
         ferrets, hamsters and the rest. An obsessively polished place to keep every vaccine,
-        every walk, every vet visit, every milestone. It lives on your iPhone. Nowhere else.
+        every walk, every vet visit, every milestone. It lives on your phone. Nowhere else.
         No accounts. No tracking. No noise.
       </p>
       <div class="hero__ctas">
         <a class="appstore-badge" href="https://apps.apple.com/us/app/mypetlogger/id6762658663" target="_blank" rel="noopener" aria-label="Download MyPetLogger on the App Store">
           <img src="/assets/img/badges/app-store-en.svg" alt="Download on the App Store" width="168" height="56">
         </a>
+        <span class="playstore-badge" aria-label="Coming soon on Google Play">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.18 23.76c.32.18.68.22 1.02.12l11.65-11.65L12 8.38 3.18 23.76zm14.49-13.11L14.4 8.96 3.05.37C2.72.18 2.34.16 2 .33L13.62 11.96l4.05-1.31zm2.12 4.01-3.53-2.04-3.12 3.12 3.12 3.12 3.54-2.05c1.01-.58 1.01-2.16-.01-2.15zM2 .33C1.61.55 1.33.99 1.33 1.56v20.88c0 .57.28 1.01.67 1.23L13.62 11.96 2 .33z"/></svg>
+          <span class="playstore-badge__lines">
+            <span class="playstore-badge__small">Coming soon</span>
+            <span class="playstore-badge__big">Google Play</span>
+          </span>
+        </span>
         <a href="#features" class="btn-ghost">See what's inside →</a>
       </div>
-      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 26+</p>
+      <p class="hero__note">iPhone &middot; iPad &middot; Apple Watch &middot; iOS 26+ &middot; Android 10+ coming soon</p>
     </div>
 
     <div class="reveal reveal--delay-1">
@@ -523,10 +532,16 @@
     <div class="reveal" style="text-align:center; max-width: 720px; margin: 0 auto;">
       <span class="eyebrow">Pricing</span>
       <h2>Free to start. Yours forever, if you want.</h2>
-      <p style="font-size: 1.1rem;">Start free with two pets. Upgrade when you're ready. Lifetime for the people who'd rather pay once.</p>
+      <p id="pricing-intro-ios" style="font-size: 1.1rem;">Start free with two pets. Upgrade when you're ready. Lifetime for the people who'd rather pay once.</p>
+      <p id="pricing-intro-android" hidden style="font-size: 1.1rem;">The full app is free — unlimited pets, all features included. The only paid option removes ads.</p>
+      <div class="platform-toggle" role="group" aria-label="Select platform">
+        <button class="platform-toggle__btn is-active" data-platform="ios" type="button" aria-pressed="true">iOS</button>
+        <button class="platform-toggle__btn" data-platform="android" type="button" aria-pressed="false">Android</button>
+      </div>
     </div>
 
-    <div class="pricing">
+    <!-- iOS pricing -->
+    <div id="pricing-ios" class="pricing">
       <div class="price reveal">
         <div class="price__tier">Free</div>
         <div class="price__amount">$0</div>
@@ -580,9 +595,48 @@
         </ul>
       </div>
     </div>
-
-    <p style="text-align:center; color: var(--text-mute); font-size: 0.9rem; margin-top: 28px;">
+    <p id="pricing-note-ios" style="text-align:center; color: var(--text-mute); font-size: 0.9rem; margin-top: 28px;">
       Monthly Premium also available at $4.99 / month.
+    </p>
+
+    <!-- Android pricing -->
+    <div id="pricing-android" class="pricing pricing--3col" hidden>
+      <div class="price">
+        <div class="price__tier">Free</div>
+        <div class="price__amount">$0</div>
+        <p class="price__tag">The whole app, unlimited pets. Forever.</p>
+        <ul class="price__list">
+          <li>Unlimited pet profiles</li>
+          <li>All medical records</li>
+          <li>Walk tracking</li>
+          <li>Private by design</li>
+          <li class="dim">Ad-free</li>
+        </ul>
+      </div>
+
+      <div class="price">
+        <div class="price__tier">Ad-Free Monthly</div>
+        <div class="price__amount">$3.99<small> / month</small></div>
+        <p class="price__tag">Remove all ads. Cancel any time.</p>
+        <ul class="price__list">
+          <li>Everything in Free</li>
+          <li>Zero ads, anywhere</li>
+        </ul>
+      </div>
+
+      <div class="price price--featured" data-badge="Best value">
+        <div class="price__tier">Ad-Free Lifetime</div>
+        <div class="price__amount">$49.99<small> one time</small></div>
+        <p class="price__tag">Pay once. No more ads, ever.</p>
+        <ul class="price__list">
+          <li>Everything in Free</li>
+          <li>Zero ads, anywhere</li>
+          <li>One payment, no renewal</li>
+        </ul>
+      </div>
+    </div>
+    <p id="pricing-note-android" hidden style="text-align:center; color: var(--text-mute); font-size: 0.9rem; margin-top: 28px;">
+      No feature paywalls. No pet limits. You only pay to go ad-free.
     </p>
   </div>
 </section>
@@ -723,7 +777,7 @@
     </div>
     <div class="faq">
       <details class="faq__item reveal"><summary class="faq__q">Which pets does it support?</summary><div class="faq__a">All of them. Dogs and cats are first-class citizens, but the species picker also covers birds, rabbits, ferrets, hamsters, guinea pigs, reptiles, fish, and a free-text fallback for anything truly unusual. Each species gets its own breed list, color palette, and icon — and every pet, regardless of species, gets the full medical timeline, reminders, and quick actions.</div></details>
-      <details class="faq__item reveal"><summary class="faq__q">Is there an Android version?</summary><div class="faq__a">Not today. MyPetLogger is built in SwiftUI to feel deeply native on Apple's platforms — Live Activities, Dynamic Island, Siri Intents, HealthKit, WatchConnectivity. We'd rather do one platform well than two platforms badly.</div></details>
+      <details class="faq__item reveal"><summary class="faq__q">Is there an Android version?</summary><div class="faq__a">Yes — coming soon to Google Play. On Android the full app is free with unlimited pets and no feature paywalls. The only paid option removes ads: $3.99&nbsp;/&nbsp;month or $49.99 one-time (lifetime). No account required on Android either.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">Do I need an account?</summary><div class="faq__a">No. There's no sign-up, no email, no password. Open the app and start. If you turn on iCloud sync, your records move between your own devices through your own Apple ID — never through us.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">What do you actually know about me?</summary><div class="faq__a">Almost nothing. We can see anonymous crash reports if you've opted into Apple's analytics, and we see aggregate download counts from the App Store. We have no database of users, no list of pet names, no way to contact you unless you email us first.</div></details>
       <details class="faq__item reveal"><summary class="faq__q">Can I export my data?</summary><div class="faq__a">Yes. Premium unlocks full PDF export per pet — perfect for a new vet, an insurance claim, or just a keepsake. The data itself lives in Core Data on-device, so you're never locked in.</div></details>
@@ -769,7 +823,7 @@
           </picture>
           <span>MyPetLogger</span>
         </div>
-        <p>The pet journal you'll actually keep. A beautifully native iOS app for every moment of your pet's life.</p>
+        <p>The pet journal you'll actually keep. Available on iOS now — coming soon to Android. No accounts, no tracking.</p>
       </div>
       <div>
         <h4>Product</h4>
@@ -778,6 +832,7 @@
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#faq">FAQ</a></li>
           <li><a href="https://apps.apple.com/us/app/mypetlogger/id6762658663" target="_blank" rel="noopener">App Store</a></li>
+          <li><span style="color:var(--text-mute); font-size:0.95rem; font-weight:500;">Google Play <em style="font-style:normal; font-size:0.8em;">(coming soon)</em></span></li>
         </ul>
       </div>
       <div>
